@@ -62,7 +62,11 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-  This is my Final Project for the subject CCS0027L - Web Design with Client Side Scripting. The purpose of this project is to show what I have learned in the course and apply this by making a Multiple Pages and Responsive Website.The Landing, About Us, Products, Where to Buy, and Contact Pages are the primary components of this project. The technology that was used is Visual Studio Code, HTMl for the structure and CSS for the styling and layout.
+ This is my Final Project for the subject CCS0027L - Web Design with Client-Side Scripting. The purpose of this project is to demonstrate the skills and knowledge I have acquired throughout the course by by redesigning the SMISKI website that is fully functional, multi-page, and responsive website. The project aims to highlight essential web design principles, including effective layout, user-friendly navigation, and responsiveness across various devices.
+
+The website consists of five primary components: Landing Page, About Us Page, Products Page, Where to Buy Page, and Contact Page. Each page is thoughtfully designed to serve a unique purpose, contributing to a cohesive user experience. 
+
+For development, I utilized Visual Studio Code as the primary coding environment. The website's structure is built using HTML, while CSS is employed for styling, layout, and ensuring visual appeal. Both technologies work together to create a responsive and visually engaging website that adapts seamlessly to different screen sizes.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
