@@ -26,11 +26,19 @@
 }
 
 .navbar-brand {
+    margin-left: 30px; /* For Moving the Logo */
+}
+
+.navbar-brand img {
     margin-right: 30%;
     margin-left: 3%;
-    width: 150px; /* For Increasing of the Logo Size */
+    width: 140px; /* For Increasing of the Logo Size */
     display: flex;
     align-items: center;
+}
+
+.navbar-custom .navbar-nav {
+    margin-left: 430px; /* For Moving the Text */
 }
 
 .nav-link{
