@@ -25,6 +25,9 @@
 ---
 
 <br />
+
+[![wakatime](https://wakatime.com/badge/user/798c7bcd-bb35-4925-aea1-28b1da6a55a3/project/32f075e9-c13e-4bba-9c9d-f5979b90cd90.svg)](https://wakatime.com/badge/user/798c7bcd-bb35-4925-aea1-28b1da6a55a3/project/32f075e9-c13e-4bba-9c9d-f5979b90cd90)
+
 <br />
 
 <!-- TODO: If you want to add more layers for your readme -->
