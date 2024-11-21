@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/E-SIG.jpeg" alt="Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">My Final Website Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Toy Company - Smiski website.
 </div>
 
 <br />
@@ -25,6 +25,9 @@
 ---
 
 <br />
+
+[![wakatime](https://wakatime.com/badge/user/798c7bcd-bb35-4925-aea1-28b1da6a55a3/project/32f075e9-c13e-4bba-9c9d-f5979b90cd90.svg)](https://wakatime.com/badge/user/798c7bcd-bb35-4925-aea1-28b1da6a55a3/project/32f075e9-c13e-4bba-9c9d-f5979b90cd90)
+
 <br />
 
 <!-- TODO: If you want to add more layers for your readme -->
@@ -59,24 +62,27 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+ This is my Final Project for the subject CCS0027L - Web Design with Client-Side Scripting. The purpose of this project is to demonstrate the skills and knowledge I have acquired throughout the course by by redesigning the SMISKI website that is fully functional, multi-page, and responsive website. The project aims to highlight essential web design principles, including effective layout, user-friendly navigation, and responsiveness across various devices.
+
+The website consists of five primary components: Landing Page, About Us Page, Products Page, Where to Buy Page, and Contact Page. Each page is thoughtfully designed to serve a unique purpose, contributing to a cohesive user experience. 
+
+For development, I utilized Visual Studio Code as the primary coding environment. The website's structure is built using HTML, while CSS is employed for styling, layout, and ensuring visual appeal. Both technologies work together to create a responsive and visually engaging website that adapts seamlessly to different screen sizes.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Navigation Bar
+- Buttons
+- Containers
+- Image Effects
+- Bootstrap Carousel
+- Youtube Video Attachment
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
