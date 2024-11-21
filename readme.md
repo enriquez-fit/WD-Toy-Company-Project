@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="assets/img/signature.PNG" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/E-SIG.jpeg" alt="Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">My Final Website Project</h3>
