@@ -9,11 +9,11 @@
     <img src="assets/img/signature.PNG" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Midterm Website Project</h3>
+  <h3 align="center">My Final Website Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  One Page Resume Website.
+  Toy Company - Smiski website.
 </div>
 
 <br />
@@ -62,7 +62,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-  This is my Midterm Project for the subject CCS0027L - Web Design with Client Side Scripting. The purpose of this project is to show what I have learned in the course and apply this by making a One Page Resume. The key components of this project is about me, my work experience, my academic background, my achievemntsm, my portfolio, and my skills. The technology that was used is Visual Studio Code, HTMl for the structure and CSS for the styling and layout.
+  This is my Final Project for the subject CCS0027L - Web Design with Client Side Scripting. The purpose of this project is to show what I have learned in the course and apply this by making a Multiple Pages and Responsive Website.The Landing, About Us, Products, Where to Buy, and Contact Pages are the primary components of this project. The technology that was used is Visual Studio Code, HTMl for the structure and CSS for the styling and layout.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -72,7 +72,7 @@ Description of the project in details.
 - Containers
 - Image Effects
 - Bootstrap Carousel
-- Overlapping Fonts
+- Youtube Video Attachment
 
 
 ### Technology
