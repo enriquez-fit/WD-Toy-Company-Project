@@ -3,9 +3,6 @@
   src: url('../font/boorsok.ttf');
 }
 
-
-
-
 /* NAVBAR */
 
 .navbar {
@@ -185,4 +182,26 @@
 
 .social-icons a:hover {
   color: #5AAE22;
+}
+.hero{
+  background-color: #fff;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #f9f9f9; /* Optional: Set a background color */
+}
+
+.hero img {
+  max-width: 100%; /* Scales the image properly */
+  height: auto;
 }

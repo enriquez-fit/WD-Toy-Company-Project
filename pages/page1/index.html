@@ -23,54 +23,56 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container-fluid">
-                <a href="/" class="navbar-brand"> <!-- Adjusted link to go up one directory -->
-                    <img src="assets/img/smiskilogo.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Smiski</a> <!-- Adjusted link to go up one directory -->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/page1/index.html">About Us</a> <!-- Correct, you're already in the same folder -->
-                        </li>                   
-                        <!-- Dropdown Menu -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="pages/page2/index.html">Products</a> 
-                          <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Hippers</a></li>
-                              <li><a class="dropdown-item" href="#">Moving Series</a></li>
-                              <li><a class="dropdown-item" href="#">Exercising Series</a></li>
-                              <li><a class="dropdown-item" href="#">Dressing Series</a></li>
-                              <li><a class="dropdown-item" href="#">@Work</a></li>
-                              <li><a class="dropdown-item" href="#">Museum</a></li>
-                              <li><a class="dropdown-item" href="#">Cheer</a></li>
-                              <li><a class="dropdown-item" href="#">Yoga Series</a></li>
-                              <li><a class="dropdown-item" href="#">Bed</a></li>
-                              <li><a class="dropdown-item" href="#">Living</a></li>
-                              <li><a class="dropdown-item" href="#">Bath Series</a></li>
-                              <li><a class="dropdown-item" href="#">Toilet Series</a></li>
-                              <li><a class="dropdown-item" href="#">Series 4</a></li>
-                              <li><a class="dropdown-item" href="#">Series 3</a></li>
-                          </ul>
-                      </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/page3/index.html">Where to Buy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contactus">Contact Us</a>
-                        </li>
+              <a href="/" class="navbar-brand">
+                <img src="assets/img/smiskilogo.png" alt="Smiski Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Smiski</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/page1/index.html">About Us</a>
+                  </li>
+                  <!-- Dropdown Menu -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="pages/page2/index.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                      <li><a class="dropdown-item" href="#">Hippers</a></li>
+                      <li><a class="dropdown-item" href="#">Moving Series</a></li>
+                      <li><a class="dropdown-item" href="#">Exercising Series</a></li>
+                      <li><a class="dropdown-item" href="#">Dressing Series</a></li>
+                      <li><a class="dropdown-item" href="#">@Work</a></li>
+                      <li><a class="dropdown-item" href="#">Museum</a></li>
+                      <li><a class="dropdown-item" href="#">Cheer</a></li>
+                      <li><a class="dropdown-item" href="#">Yoga Series</a></li>
+                      <li><a class="dropdown-item" href="#">Bed</a></li>
+                      <li><a class="dropdown-item" href="#">Living</a></li>
+                      <li><a class="dropdown-item" href="#">Bath Series</a></li>
+                      <li><a class="dropdown-item" href="#">Toilet Series</a></li>
+                      <li><a class="dropdown-item" href="#">Series 4</a></li>
+                      <li><a class="dropdown-item" href="#">Series 3</a></li>
                     </ul>
-                    <form class="d-flex ms-auto">
-                        <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark search-btn" type="submit">Search</button>
-                    </form>
-                </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/page3/index.html">Where to Buy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/page4/index.html">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                  <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-dark search-btn" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-        </nav>   
+          </nav> 
         <div class="hero">
             <h1>ABOUT</h1>
             <h2>SMISKI</h2>
@@ -94,22 +96,6 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-z3skD3GvPHIEXhZdK2kI5uaNJc4LRSkDi3bBgP+wh3jvFzTfjpb7fuLr7x3z/+4+" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-qQ44UB8n5dQ+2ldgiD7p/sMB+dRgnE44h/W6D3hrHt0I6VLYBJJVuVg+7Bu4RdEk" crossorigin="anonymous"></script>
 
-        <script>
-            fetch('/navbar.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('navbar').innerHTML = data;
         
-                    // Re-run any JavaScript for active links or dropdowns after injecting the navbar
-                    const navLinks = document.querySelectorAll('.nav-link');
-                    navLinks.forEach(link => {
-                        if (window.location.pathname === link.getAttribute('href')) {
-                            link.classList.add('active');
-                        }
-                    });
-                });
-        </script>
-
-        </script>
     </body>
 </html>
