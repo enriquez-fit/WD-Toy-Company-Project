@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'smiski';
-    src: url('../fonts/boorsok.ttf');
+    src: url('../font/boorsok.ttf');
 }
+
+
 
 
 /* NAVBAR */
@@ -24,7 +26,12 @@
     font-size: 15px;
     font-family: "Questrial", sans-serif;
 }
-
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link:hover{
+    color: #89C914;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link
 .navbar-brand {
     margin-left: 30px; /* For Moving the Logo */
 }
@@ -47,6 +54,62 @@
 
 .navbar-custom .nav-link.active {
     color: #5b5757;
+}
+.dropdown .dropdown-toggle {
+    background-color: transparent; /* Remove background */
+    border: none; /* Remove border */
+    color: #5b5757;
+    font-size: 15px;
+    font-family: "Questrial", sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+    box-shadow: none; /* No shadow */
+}
+
+.dropdown .dropdown-toggle:hover {
+    color: #89C914;
+    transform: scale(1.1); /* Add a subtle scaling effect */
+}
+
+/* Dropdown Style */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 100%; /* Position dropdown below the "Products" link */
+    left: 0;
+    background-color: #F9E707; /* Match navbar color */
+    border: none;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1000;
+    width: 200px; /* Set width for uniformity */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #5b5757;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #89C914;
+    color: #fff;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Remove dropdown arrow from "Products" */
+.nav-link#productsDropdown::after {
+    display: none;
 }
 
 .search-input {
@@ -73,4 +136,82 @@
 .search-btn:hover {
     background-color: #89C914;
     color: white;
+}
+
+/* Footer Styles */
+.footer {
+    background: #F9E707;
+    font-family: "Questrial", sans-serif;
+    color: #77BD26;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer h1 {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 60px;
+    padding-top: 80px;
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px ;
+}
+
+.footer .footer-logo {
+    width: 40px; /* For the Logo Size */
+    height: auto;
+    margin-top: -25px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: right;
+    gap: 25px; /* For the Space Between the Icons */
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.social-icons a {
+    color: #77BD26;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-top: -40px;
+}
+
+.social-icons a:hover {
+    color: #5AAE22;
+}
+
+.hero{
+    background-image: url('../img/AboutBackground.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+
+.hero h1{
+    font-family: 'smiski';
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 20px;
+    color:#77BD26;
+    padding-top: 170px;
+    padding-left: 50px;
+}
+.hero h2{
+    font-family: 'smiski';
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 20px;
+    color:#77BD26;
+    margin-top:-30px;
+    padding-left: 50px;
 }

@@ -24,7 +24,12 @@
     font-size: 15px;
     font-family: "Questrial", sans-serif;
 }
-
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link:hover{
+    color: #89C914;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link
 .navbar-brand {
     margin-left: 30px; /* For Moving the Logo */
 }
@@ -47,6 +52,62 @@
 
 .navbar-custom .nav-link.active {
     color: #5b5757;
+}
+.dropdown .dropdown-toggle {
+    background-color: transparent; /* Remove background */
+    border: none; /* Remove border */
+    color: #5b5757;
+    font-size: 15px;
+    font-family: "Questrial", sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+    box-shadow: none; /* No shadow */
+}
+
+.dropdown .dropdown-toggle:hover {
+    color: #89C914;
+    transform: scale(1.1); /* Add a subtle scaling effect */
+}
+
+/* Dropdown Style */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    top: 100%; /* Position dropdown below the "Products" link */
+    left: 0;
+    background-color: #F9E707; /* Match navbar color */
+    border: none;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1000;
+    width: 200px; /* Set width for uniformity */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #5b5757;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #89C914;
+    color: #fff;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Remove dropdown arrow from "Products" */
+.nav-link#productsDropdown::after {
+    display: none;
 }
 
 .search-input {
@@ -106,6 +167,10 @@
     padding-top: 10px;
     margin-left: 11px;
 }
+.start-btn:hover {
+    background: #5AAE22; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
 
 .space{
     background-color: #77BD26;
@@ -187,7 +252,7 @@
 .footer h1 {
     font-size: 18px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 60px;
     padding-top: 80px;
 }
 
@@ -207,8 +272,9 @@
 .social-icons {
     display: flex;
     justify-content: right;
-    gap: 10px; /* For the Space Between the Icons */
+    gap: 25px; /* For the Space Between the Icons */
     margin-top: 10px;
+    margin-right: 60px;
 }
 
 .social-icons a {
@@ -217,10 +283,47 @@
     text-decoration: none;
     transition: color 0.3s ease;
     margin-top: -40px;
-    margin-right: 20px;
 }
 
 .social-icons a:hover {
     color: #5AAE22;
 }
-
+/* Button container styling */
+.btn2 {
+    text-align: center; /* Centers the button horizontally */
+    margin-top: 50px; /* Adjust top margin as needed */
+  }
+  
+  /* Styling the button */
+  .about-btn {
+    display: inline-block; /* Ensures proper alignment */
+    color: #ffffff; /* Button text color */
+    padding: 5px 50px; /* Adjust padding for size */
+    border-radius: 50px; /* Rounded corners */
+    border: none; /* Removes border */
+    background: #77BD26; /* Green button color */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; /* Ensures z-index works */
+    text-decoration: none; /* Removes underline from <a> */
+    font-family: "smiski", sans-serif;
+    font-size: 12px;
+    letter-spacing: 15px; /* Space between letters */
+  }
+  
+  /* Button hover effect */
+  .about-btn:hover {
+    background: #5AAE22; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Styling the <h1> inside the button */
+  .about-btn h1 {
+    margin: 0; /* Remove extra margin */
+    padding: 0; /* Remove padding */
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 4px; /* Adjust spacing for better readability */
+    line-height: 1.5; /* Center text vertically */
+    padding-top: 8px;
+  }
+  
