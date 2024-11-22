@@ -98,8 +98,8 @@
 }
 .start-btn h1{
     font-family: "smiski", sans-serif;
-    justify-content: center; /* Center horizontally */
-    text-align: center; /* Center text */
+    justify-content: center;
+    text-align: center;
     font-size: 19px;
     letter-spacing: 10px;
     margin-bottom: 2px;
@@ -168,60 +168,59 @@
     display:inline
 }
 
-/* Iframe styles */
 .video-container iframe {
     display: block;
-    width: 600px; /* Video width */
-    height: 340px; /* Video height */
-    border-radius: 10px; /* Rounded corners for iframe */
+    width: 900px; /* For the Video width */
+    height: 600px; /* For the Video height */
+    border-radius: 10px; /* Rounded corners */
 }
 
 /* Footer Styles */
 .footer {
-    background: #F9E707; /* Yellow background */
-    font-family: "Questrial", sans-serif; /* Font for the footer */
-    color: #77BD26; /* Greenish text color for good contrast */
-    padding: 20px 0; /* Padding to give some breathing room */
-    position: relative; /* For easier positioning of elements */
+    background: #F9E707;
+    font-family: "Questrial", sans-serif;
+    color: #77BD26;
+    padding: 20px 0;
+    position: relative;
 }
 
 .footer h1 {
-    font-size: 18px; /* Slightly smaller text size */
-    text-align: left; /* Center align the title */
+    font-size: 18px;
+    text-align: left;
     margin-left: 20px;
     padding-top: 80px;
 }
 
 .footer .logo {
     display: flex;
-    justify-content: center; /* Center the logo horizontally */
-    align-items: center; /* Vertically align the logo */
-    margin-top: -20px ; /* Adjust spacing above and below */
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px ;
 }
 
 .footer .footer-logo {
-    width: 40px; /* Smaller size for the logo */
-    height: auto; /* Maintain aspect ratio */
+    width: 40px; /* For the Logo Size */
+    height: auto;
     margin-top: -25px;
 }
 
 .social-icons {
     display: flex;
-    justify-content: right; /* Center the icons */
-    gap: 10px; /* Space between the icons */
-    margin-top: 10px; /* Adjust spacing from the logo */
+    justify-content: right;
+    gap: 10px; /* For the Space Between the Icons */
+    margin-top: 10px;
 }
 
 .social-icons a {
-    color: #77BD26; /* Greenish color for icons */
-    font-size: 25px; /* Slightly smaller icon size */
-    text-decoration: none; /* Remove underline from links */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    color: #77BD26;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
     margin-top: -40px;
     margin-right: 20px;
 }
 
 .social-icons a:hover {
-    color: #5AAE22; /* Slightly darker green on hover */
+    color: #5AAE22;
 }
 
