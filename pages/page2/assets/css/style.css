@@ -184,7 +184,7 @@
   color: #5AAE22;
 }
 .hero{
-  background-color: #fff;
+  background-color: rgb(255,255,255);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -194,14 +194,78 @@
 }
 
 .hero {
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full height of the viewport */
-  background-color: #f9f9f9; /* Optional: Set a background color */
+  flex-direction: column; /* Stack elements vertically */
+  padding-top: 100px;
+  height: 100vh; /* Full viewport height */
+  position: relative;
 }
 
-.hero img {
-  max-width: 100%; /* Scales the image properly */
+.logo-smiski img {
+  align-items: center;
+  width: 250px;
+  margin-top: -560px;
+  margin-left: 13px;
+}
+
+.logo-smiski h1 {
+  font-family: 'smiski';
+  color: #5AAE22;
+  font-size: 59px; /* Adjust size */
+  position: absolute;
+  top: 30%; /* Position below the logo */
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 5px 10px #F9E707; /* Add a shadow for better readability */
+  letter-spacing: 10px;
+}
+
+
+.s1 img {
+  width: 550px;
   height: auto;
+  position: absolute;
+  margin-top: -40px; /* Position the image below the text */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page1{
+  background-color: rgb(255,255,255);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+}
+
+.page1{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack elements vertically */
+  padding-top: 100px;
+  height: 100vh; /* Full viewport height */
+  position: relative;
+}
+.s2 img {
+  width: 550px;
+  height: auto;
+  position: absolute;
+  margin-top: -420px; /* Position the image below the text */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.s3 img {
+  width: 550px;
+  height: auto;
+  position: absolute;
+  margin-top: -70px; /* Position the image below the text */
+  left: 50%;
+  transform: translateX(-50%);
 }
