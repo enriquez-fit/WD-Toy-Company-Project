@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smiski Website</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/FaceLogo.png">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=DM+Serif+Display:ital@0;1&family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <a href="/index.html" class="navbar-brand">
+          <img src="assets/img/smiskilogo.png" alt="Smiski Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="../../index.html">Smiski</a></li>
+            <li class="nav-item"><a class="nav-link" href="../page1/index.html">About Us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="../page2/index.html" id="productsMainLink">Products</a>
+              <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+              <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                <!-- Dropdown items -->
+                <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                  <li><a class="dropdown-item" href="../page5/index.html">Series 1</a></li>
+                  <li><a class="dropdown-item" href="../page6/index.html">Series 2</a></li>
+                  <li><a class="dropdown-item" href="../page7/index.html">Series 3</a></li>
+                  <li><a class="dropdown-item" href="../page8/index.html">Series 4</a></li>
+              </ul>
+              </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="../page3/index.html">Where to Buy</a></li>
+            <li class="nav-item"><a class="nav-link" href="../page4/index.html">Contact Us</a></li>
+          </ul>
+          <form class="d-flex ms-auto">
+            <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark search-btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+      
+      <div class="hero">
+        <img src="../page3/assets/img/WhereTo Buy.png" alt="Where to Buy Header Image" class="header-image" />
+        <h1>WHERE</h1>
+        <h2>TO BUY</h2>
+        <div class="content">
+            <img src="../page3/assets/img/wtbyellow.png" alt="Smiski Figures" class="content-image" />
+            <h1>PHILIPPINES</h1>
+            <div class="links">
+                <a href="url">Official Facebook Page</a>
+            </div>
+            <div class="fully">
+                <a href="url">Fully Booked, Kinokuniya 
+                 <br> Books (Fully Booked)</a>
+            </div>
+            <div class="notice">
+              <p>Handling may be canceled for reasons such as store refurbishment,<br> and the products handled may differ at each stores. We advise you <br> contact each stores and confirm in advance.</p>
+            </div>
+        </div>
+        <div class="btn2">
+          <a href="/pages/page4/index.html" class="about-btn">
+            <h1>CONTACT US</h1>
+          </a>
+        </div>
+    </div>    
+          <!-- FOOTER -->
+          <footer class="footer">
+            <h1>© 2016 Dreams Inc.</h1>
+            <div class="logo">
+                <img src="../page1/assets/img/FaceLogo.png" alt="Logo" class="footer-logo">
+            </div>
+            <div class="social-icons">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+          </div>   
+          <script>
+            document.getElementById('productsDropdown').addEventListener('click', function (e) {
+              if (this.getAttribute('aria-expanded') === 'false') {
+                e.preventDefault();
+              }
+            });
+          </script>
+          
+        </footer>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-z3skD3GvPHIEXhZdK2kI5uaNJc4LRSkDi3bBgP+wh3jvFzTfjpb7fuLr7x3z/+4+" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-qQ44UB8n5dQ+2ldgiD7p/sMB+dRgnE44h/W6D3hrHt0I6VLYBJJVuVg+7Bu4RdEk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        
+    
+    </body>
+</html>

@@ -1,0 +1,467 @@
+@font-face {
+  font-family: 'smiski';
+  src: url('../font/boorsok.ttf');
+}
+
+
+
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-custom {
+  background-color:#F9E707;
+  padding-top: 15px;  /* For Increasing of the NavBar Size */
+  padding-bottom: 15px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #5b5757;
+  font-size: 15px;
+  font-family: "Questrial", sans-serif;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link:hover{
+  color: #89C914;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link
+.navbar-brand {
+  margin-left: 30px; /* For Moving the Logo */
+}
+
+.navbar-brand img {
+  margin-right: 30%;
+  margin-left: 3%;
+  width: 140px; /* For Increasing of the Logo Size */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .navbar-nav {
+  margin-left: 430px; /* For Moving the Text */
+}
+
+.nav-link{
+  margin-left: 20px;
+}
+
+.navbar-custom .nav-link.active {
+  color: #5b5757;
+}
+.dropdown .dropdown-toggle {
+  background-color: transparent; /* Remove background */
+  border: none; /* Remove border */
+  color: #5b5757;
+  font-size: 15px;
+  font-family: "Questrial", sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+  box-shadow: none; /* No shadow */
+}
+
+.dropdown .dropdown-toggle:hover {
+  color: #89C914;
+  transform: scale(1.1); /* Add a subtle scaling effect */
+}
+
+/* Dropdown Style */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none; /* Hide dropdown by default */
+  position: absolute;
+  top: 100%; /* Position dropdown below the "Products" link */
+  left: 0;
+  background-color: #F9E707; /* Match navbar color */
+  border: none;
+  padding: 10px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  z-index: 1000;
+  width: 200px; /* Set width for uniformity */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #5b5757;
+  font-family: "Questrial", sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #89C914;
+  color: #fff;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Remove dropdown arrow from "Products" */
+.nav-link#productsDropdown::after {
+  display: none;
+}
+
+.search-input {
+  border-color: #89C914;
+  background-color: #FAF4E8;
+  font-family: "Questrial", sans-serif;
+}
+
+.ms-auto {
+  margin-right: 20px;
+}
+
+.search-input:focus {
+  border-color: #89C914;
+  box-shadow: none;
+}
+
+.search-btn {
+  color: #89C914;
+  border-color: #89C914;
+  font-family: "Questrial", sans-serif;
+}
+
+.search-btn:hover {
+  background-color: #89C914;
+  color: white;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+.footer {
+  background: #F9E707;
+  font-family: "Questrial", sans-serif;
+  color: #77BD26;
+  padding: 10px 0;
+  position: relative;
+}
+
+.footer h1 {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 60px;
+  padding-top: 20px;
+}
+
+.footer .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px ;
+}
+
+.footer .footer-logo {
+  width: 40px; /* For the Logo Size */
+  height: auto;
+  margin-top: -25px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: right;
+  gap: 25px; /* For the Space Between the Icons */
+  margin-top: 8px;
+  margin-right: 60px;
+}
+
+.social-icons a {
+  color: #77BD26;
+  font-size: 25px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-top: -45px;
+}
+
+.social-icons a:hover {
+  color: #5AAE22;
+}
+
+.hero{
+  background-color: rgb(255,255,255);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 130vh;
+  position: relative;
+}
+
+.hero h1{
+  font-family: 'smiski';
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 20px;
+  color:#F9E707;
+  margin-top: -150px;
+  padding-top: -970px;
+  padding-left: -25px;
+  z-index: 999;
+}
+.hero h2{
+  font-family: 'smiski';
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 20px;
+  color:#F9E707;
+  margin-top: -30px;
+  padding-left: -25px;
+  z-index: 9999;
+}
+.hero img {
+  width: 650px;
+  margin-top: 130px;
+  margin-left: 400px;
+}
+
+.content img {
+  width: 750px;
+  z-index: 9999;
+  margin-top: 10px;
+  margin-left: 350px;
+  align-items: center;
+
+}
+.content h1{
+  font-size: 50px;
+  color: #77BD26;
+  letter-spacing: 15px;
+  margin-top: -210px;
+  margin-left: 50px;
+}
+.links {
+  margin-top: 15px;
+}
+.links a{
+  font-family: 'Questrial';
+  color:#5AAE22;
+  margin-left: 555px;
+  font-size: 22px;
+  letter-spacing: 6px;
+}
+.fully{
+  text-align: center;
+  margin-top: 10px;
+}
+.fully a {
+  font-family: 'Questrial';
+  color: #5AAE22;
+  font-size: 22px;
+  letter-spacing: 5px;
+  display: inline-block; /* Allows proper spacing for multi-line text */
+  line-height: 1.5; /* Adjusts spacing between lines */
+  word-break: break-word; /* Ensures long text wraps properly */
+}
+.notice p{
+  text-align: center;
+  color: #77BD26;
+  font-family: "Questrial";
+  margin-top: 60px;
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+.btn2 {
+  text-align: center; /* Centers the button horizontally */
+  margin-top: 100px; /* Adjust top margin as needed */
+}
+
+/* Styling the button */
+.about-btn {
+  display: inline-block; /* Ensures proper alignment */
+  padding: 5px 50px; /* Adjust padding for size */
+  border-radius: 50px; /* Rounded corners */
+  border: none; /* Removes border */
+  background:#5AAE22; /* Green button color */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  position: relative; /* Ensures z-index works */
+  text-decoration: none; /* Removes underline from <a> */
+  font-family: "smiski", sans-serif;
+  font-size: 12px;
+  letter-spacing: 15px; /* Space between letters */
+}
+
+/* Button hover effect */
+.about-btn:hover {
+  background: #5AAE22; /* Darker green on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Styling the <h1> inside the button */
+.about-btn h1 {
+  margin: 0; /* Remove extra margin */
+  padding: 0; /* Remove padding */
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 10px; /* Adjust spacing for better readability */
+  line-height: 1.5; /* Center text vertically */
+  padding-top: 8px;
+  color: #FAF4E8;
+}
+
+
+
+/* MEDIA QUERY FOR FOOTER */
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .footer {
+      padding: 20px;
+  }
+
+  .footer h1 {
+      font-size: 16px;
+      text-align: center;
+      margin-left: 0;
+      padding-top: 10px;
+  }
+
+  .footer .logo {
+      margin-top: 10px;
+  }
+
+  .footer .footer-logo {
+      width: 35px;
+  }
+
+  .social-icons {
+      justify-content: center;
+      margin-top: 15px;
+      margin-right: 0;
+  }
+
+  .social-icons a {
+      font-size: 20px;
+  }
+}
+
+/* Media Query for Extra Small Screens */
+@media screen and (max-width: 480px) {
+  .footer h1 {
+      font-size: 14px;
+      margin-left: 0;
+      padding-top: 20px; /* Increased space from top */
+      margin-bottom: 15px; /* Added space below the text */
+  }
+
+  .footer .logo {
+      margin-top: 20px; /* Increased space above the logo */
+  }
+
+  .footer .footer-logo {
+      width: 35px;
+  }
+
+  .social-icons {
+      flex-direction: row-reverse;
+      gap: 15px; /* Increased gap between social icons */
+      margin-top: 40px;
+  }
+
+  .social-icons a {
+      font-size: 18px;
+  }
+}
+/* Media Query for iPhone XR (Portrait Mode) */
+@media screen and (max-width: 414px) {
+  .footer h1 {
+      font-size: 16px;
+      margin-left: 0;
+      padding-top: 25px; /* Adjusted for better spacing */
+      margin-bottom: 15px;
+  }
+
+  .footer .logo {
+      margin-top: 25px; /* Adjusted for better spacing */
+  }
+
+  .footer .footer-logo {
+      width: 10px; /* Keeping the logo size similar */
+  }
+
+  .social-icons {
+      flex-direction: row-reverse;
+      gap: 15px; /* Increased gap between social icons */
+      margin-top: 40px;
+  }
+
+  .social-icons a {
+      font-size: 20px;
+  }
+}
+/* MEDIA QUERY FOR FOOTER */
+
+/* iPad Pro - Landscape */
+@media screen and (max-width: 1366px) {
+  .navbar-brand img {
+      width: 80px; /* Further reduce logo size */
+  }
+
+  .navbar-custom {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 200px; /* Center nav links */
+      justify-content: center;
+  }
+
+  .nav-link {
+      font-size: 12px; /* Adjust font size */
+      margin-left: 15px; /* Reduce spacing */
+  }
+
+  .dropdown-menu {
+      width: 100%; /* Full width for dropdowns */
+      left: 0;
+  }
+  .notice {
+   height: 20vh;
+  }
+  .hero img {
+    margin-left: 360px;
+    padding-top: 70px;
+  }
+  .content img {
+    margin-left: 310px;
+  }
+
+  .hero h1 {
+    margin-left: 30px;
+  }
+  .hero h2 {
+    margin-left: 30px;
+  }
+  .content h1{
+    margin-left: 50px;
+  }
+  .links a{
+    margin-left: 495px;
+  }
+  .fully a{
+    margin-left: -5px;
+  }
+  .notice p {
+    margin-left: 60px;
+    padding-top: 90px;
+  }
+  .about-btn {
+    margin-right: -20px;
+    padding: 2px 50px;
+  }
+  .about-btn h1{
+    padding-left: -90px;
+    
+  }
+
+}

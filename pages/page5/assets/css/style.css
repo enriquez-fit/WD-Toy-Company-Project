@@ -1,0 +1,729 @@
+@font-face {
+  font-family: 'smiski';
+  src: url('../font/boorsok.ttf');
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-custom {
+  background-color:#F9E707;
+  padding-top: 15px;  /* For Increasing of the NavBar Size */
+  padding-bottom: 15px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #5b5757;
+  font-size: 15px;
+  font-family: "Questrial", sans-serif;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link:hover{
+  color: #89C914;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link
+.navbar-brand {
+  margin-left: 30px; /* For Moving the Logo */
+}
+
+.navbar-brand img {
+  margin-right: 30%;
+  margin-left: 3%;
+  width: 140px; /* For Increasing of the Logo Size */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .navbar-nav {
+  margin-left: 430px; /* For Moving the Text */
+}
+
+.nav-link{
+  margin-left: 20px;
+}
+
+.navbar-custom .nav-link.active {
+  color: #5b5757;
+}
+.dropdown .dropdown-toggle {
+  background-color: transparent; /* Remove background */
+  border: none; /* Remove border */
+  color: #5b5757;
+  font-size: 15px;
+  font-family: "Questrial", sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+  box-shadow: none; /* No shadow */
+}
+
+.dropdown .dropdown-toggle:hover {
+  color: #89C914;
+  transform: scale(1.1); /* Add a subtle scaling effect */
+}
+
+/* Dropdown Style */
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none; /* Hide dropdown by default */
+  position: absolute;
+  top: 100%; /* Position dropdown below the "Products" link */
+  left: 0;
+  background-color: #F9E707; /* Match navbar color */
+  border: none;
+  padding: 10px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  z-index: 1000;
+  width: 200px; /* Set width for uniformity */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #5b5757;
+  font-family: "Questrial", sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #89C914;
+  color: #fff;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Remove dropdown arrow from "Products" */
+.nav-link#productsDropdown::after {
+  display: none;
+}
+
+.search-input {
+  border-color: #89C914;
+  background-color: #FAF4E8;
+  font-family: "Questrial", sans-serif;
+}
+
+.ms-auto {
+  margin-right: 20px;
+}
+
+.search-input:focus {
+  border-color: #89C914;
+  box-shadow: none;
+}
+
+.search-btn {
+  color: #89C914;
+  border-color: #89C914;
+  font-family: "Questrial", sans-serif;
+}
+
+.search-btn:hover {
+  background-color: #89C914;
+  color: white;
+}
+/* Footer Styles */
+.footer {
+  background: #F9E707;
+  font-family: "Questrial", sans-serif;
+  color: #77BD26;
+  padding: 10px 0;
+  position: relative;
+}
+
+.footer h1 {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 60px;
+  padding-top: 20px;
+}
+
+.footer .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px ;
+}
+
+.footer .footer-logo {
+  width: 40px; /* For the Logo Size */
+  height: auto;
+  margin-top: -25px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: right;
+  gap: 25px; /* For the Space Between the Icons */
+  margin-top: 8px;
+  margin-right: 60px;
+}
+
+.social-icons a {
+  color: #77BD26;
+  font-size: 25px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-top: -45px;
+}
+
+.social-icons a:hover {
+  color: #5AAE22;
+}
+
+.hero{
+  background-color: rgb(255,255,255);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 10vh;
+  position: relative;
+}
+.logo-smiski img {
+  align-items: center;
+  width: 250px;
+  margin-top:150px;
+  margin-left: 593px;
+}
+.logo-smiski h1{
+  display: inline-block; /* Ensures the background wraps tightly around the text */
+  background-color: #F9E707; /* Yellow background */
+  color: #89C914; /* Green text color */
+  font-family: "Questrial", sans-serif; /* Apply your desired font */
+  font-size: 30px; /* Adjust the font size */
+  font-weight: bold; /* Makes the text bold */
+  padding: 5px 50px; /* Creates space around the text */
+  border-radius: 50px; /* Fully rounds the corners */
+  text-align: center; /* Centers the text inside the element */
+  text-transform: uppercase; /* Makes the text all caps */
+  margin-left: 395px;
+  margin-top: 20px;
+  font-family: 'smiski';
+  letter-spacing: 15px;
+  text-indent: 30px;
+  padding-top: 15px;
+}
+.series-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  max-width: 1200px; /* Limit the total width */
+  margin: 0 auto; /* Center the container */
+  margin-top: 40px;
+}
+
+/* Individual item styling */
+.series-item {
+  flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+  max-width: calc(33.33% - 20px);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.series-item:hover {
+  transform: scale(1.05);
+}
+
+/* Image styling */
+.series-image {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/* Title styling */
+.series-title {
+  display: block; /* Make the element block-level to easily control the width */
+  background-color: #F9E707; /* Yellow background */
+  color: #89C914; /* Green text color */
+  font-family: "smiski"; /* Apply your desired font */
+  font-size: 20px; /* Adjust the font size */
+  font-weight: bold; /* Makes the text bold */
+  padding: 10px 0; /* Vertical padding */
+  padding-top: 15px;
+  width: 250px; /* Set a fixed width for the background */
+  border-radius: 50px; /* Fully rounds the corners */
+  letter-spacing: 2px; /* Space between characters */
+  text-align: center; /* Centers the text horizontally */
+  text-transform: uppercase; /* Makes the text all caps */
+  margin: 0 auto; /* Center the element horizontally in its container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+}
+
+
+
+/* Details styling */
+.series-details {
+  padding: 0 15px 15px;
+  font-size: 14px;
+  color: #5b5757;
+  line-height: 1.5;
+  font-family: "Questrial", sans-serif;
+}
+
+.series-details p {
+  margin: 5px 0;
+}
+
+.series-details strong {
+  color: #89C914;
+}
+
+.end {
+    background-image: url('../img/Series1Group.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 120vh;
+    position: relative;
+}
+
+
+/* MEDIA QUERY FOR FOOTER */
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .footer {
+      padding: 20px;
+  }
+
+  .footer h1 {
+      font-size: 16px;
+      text-align: center;
+      margin-left: 0;
+      padding-top: 10px;
+  }
+
+  .footer .logo {
+      margin-top: 10px;
+  }
+
+  .footer .footer-logo {
+      width: 35px;
+  }
+
+  .social-icons {
+      justify-content: center;
+      margin-top: 15px;
+      margin-right: 0;
+  }
+
+  .social-icons a {
+      font-size: 20px;
+  }
+}
+
+/* Media Query for Extra Small Screens */
+@media screen and (max-width: 480px) {
+  .footer h1 {
+      font-size: 14px;
+      margin-left: 0;
+      padding-top: 20px; /* Increased space from top */
+      margin-bottom: 15px; /* Added space below the text */
+  }
+
+  .footer .logo {
+      margin-top: 20px; /* Increased space above the logo */
+  }
+
+  .footer .footer-logo {
+      width: 35px;
+  }
+
+  .social-icons {
+      flex-direction: row-reverse;
+      gap: 15px; /* Increased gap between social icons */
+      margin-top: 40px;
+  }
+
+  .social-icons a {
+      font-size: 18px;
+  }
+}
+/* Media Query for iPhone XR (Portrait Mode) */
+@media screen and (max-width: 414px) {
+  .footer h1 {
+      font-size: 16px;
+      margin-left: 0;
+      padding-top: 25px; /* Adjusted for better spacing */
+      margin-bottom: 15px;
+  }
+
+  .footer .logo {
+      margin-top: 25px; /* Adjusted for better spacing */
+  }
+
+  .footer .footer-logo {
+      width: 10px; /* Keeping the logo size similar */
+  }
+
+  .social-icons {
+      flex-direction: row-reverse;
+      gap: 15px; /* Increased gap between social icons */
+      margin-top: 40px;
+  }
+
+  .social-icons a {
+      font-size: 20px;
+  }
+}
+/* MEDIA QUERY FOR FOOTER */
+
+/* General media query for small devices */
+/* NAVBAR AND HERO */
+@media (max-width: 768px) {
+  .navbar-custom {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .navbar-custom .navbar-brand {
+      margin-left: 15px; /* Reduce spacing for smaller screens */
+  }
+  .navbar-brand img {
+      width: 100px; /* Adjust logo size */
+  }
+  .navbar-custom .navbar-nav {
+      margin-left: 0; /* Center align */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .nav-link {
+      margin-left: 0; /* Remove spacing */
+      margin-bottom: 10px; /* Add spacing between links */
+  }
+  .hero h1, .hero h2 {
+      font-size: 40px; /* Adjust heading size */
+      letter-spacing: 10px;
+      padding-left: 10px;
+      padding-top: 100px;
+  }
+  .hero {
+      min-height: 70vh; /* Adjust height for smaller screens */
+  }
+}
+
+/* For extra small devices (e.g., smartphones) */
+@media (max-width: 576px) {
+  .navbar-brand img {
+      width: 80px; /* Further reduce logo size */
+  }
+  .navbar-custom {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .dropdown-menu {
+      width: 100%; /* Full width for dropdowns */
+      left: 0;
+  }
+  .hero {
+      min-height: 70vh; /* Adjust the height for small screens */
+  }
+  .hero h1, .hero h2 {
+      font-size: 35px; /* Smaller headings for small screens */
+      letter-spacing: 5px;
+      text-align: center; /* Center the headings */
+      margin: 0; /* Reset margins */
+      padding: 0; /* Add consistent padding */
+      position: relative; /* Ensure proper stacking */
+  }
+  .hero h1{
+      padding-top: 110px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+  }
+  .hero h2 {
+      z-index: 2; /* Ensure it layers correctly */
+      padding-top: -90px;
+      margin-top: 0;
+  }
+}
+
+
+/* For medium devices (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar-custom .navbar-nav {
+      margin-left: 150px; /* Adjust spacing */
+  }
+  .navbar-brand img {
+      width: 120px; /* Slightly reduce logo size */
+  }
+  .hero h1, .hero h2 {
+      font-size: 60px; /* Scale down slightly */
+      letter-spacing: 15px;
+      padding-left: 20px;
+  }
+  
+}
+/* iPhone 14 Pro Max - Portrait */
+@media screen and (max-width: 430px) {
+  /* Navbar adjustments */
+  .navbar-custom {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .navbar-custom .navbar-brand {
+      margin-left: 10px;
+  }
+
+  .navbar-brand img {
+      width: 100px;
+      margin-left: 70px;
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+.footer h1 {
+      font-size: 16px;
+      margin-left: 120px;
+      padding-top: 25px;
+      margin-bottom: 15px;
+  }
+
+  .footer .logo {
+      margin-top: 25px;
+  }
+
+  .footer .footer-logo {
+      width: 30px;
+      margin-left: 120px;
+  }
+
+  /* Social icons */
+  .social-icons {
+      flex-direction: row-reverse;
+      gap: 15px;
+      margin-top: 50px;
+      margin-left: 120px;
+  }
+
+  .social-icons a {
+      font-size: 20px;
+  }
+
+
+.logo-smiski img {
+    margin-left: 50px;
+    width: 200px;
+  }
+  
+  .logo-smiski h1 {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .series-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .series-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .series-title {
+    font-size: 18px;
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+  }
+
+  .series-details {
+    font-size: 12px;
+  }
+}
+
+/* iPhone 14 Pro Max - LANDSCAPE */
+@media screen and (max-width: 932px) {
+  /* Adjustments for iPhone 14 Pro Max in landscape */
+  .navbar-custom {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .navbar-custom .navbar-brand {
+      margin-left: 10px;
+  }
+
+  .navbar-brand img {
+      width: 80px; /* Adjusted for better fit */
+      margin-left: 0; /* Adjusted for proper alignment */
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .logo-smiski img {
+    margin-top: 9cqmax;
+    width: 200px;
+    margin-left: 130px;
+  }
+  
+  .logo-smiski h1 {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+
+/* iPad Pro - Portrait */
+@media screen and (max-width: 1024px) {
+  .navbar-brand img {
+      width: 80px; /* Reduce logo size */
+  }
+
+  .navbar-custom {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 0; /* Center nav links */
+      justify-content: center; /* Align nav links in the center */
+  }
+
+  .nav-link {
+      font-size: 10px; /* Decrease font size to ensure single line */
+      margin-left: 40px; /* Reduce spacing to fit within view */
+      white-space: nowrap; /* Prevent nav links from wrapping */
+      text-overflow: ellipsis; /* Add ellipsis for long links if necessary */
+      overflow: hidden; /* Prevent overflowing content */
+  }
+
+  .dropdown-menu {
+      width: 100%; /* Full width for dropdowns */
+      left: 0;
+  }
+  .logo-smiski img {
+    margin-top: 10px;
+    width: 200px;
+    padding-left: 930px;
+  }
+  
+  .logo-smiski h1 {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-left: 280px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+
+/* iPad Pro - Landscape */
+@media screen and (max-width: 1366px) {
+  .navbar-brand img {
+      width: 80px; /* Further reduce logo size */
+  }
+
+  .navbar-custom {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 200px; /* Center nav links */
+      justify-content: center;
+  }
+
+  .nav-link {
+      font-size: 12px; /* Adjust font size */
+      margin-left: 15px; /* Reduce spacing */
+  }
+
+  .dropdown-menu {
+      width: 100%; /* Full width for dropdowns */
+      left: 0;
+  }
+  .hero img{
+    margin-top: 100px;
+    margin-left: 600px;
+  }
+}
+/* SMALLER SCREEN */
+      @media screen and (max-width: 932px) {
+          /* Adjustments for iPhone 14 Pro Max in landscape */
+          .navbar-custom {
+              padding-top: 10px;
+              padding-bottom: 10px;
+          }
+      
+          .navbar-custom .navbar-brand {
+              margin-left: 10px;
+          }
+      
+          .navbar-brand img {
+              width: 80px; /* Adjusted for better fit */
+              margin-left: 0; /* Adjusted for proper alignment */
+          }
+      
+          .navbar-custom .navbar-nav {
+              margin-left: 0;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          
+          .footer {
+              padding: 10px;
+          }
+        
+          .footer h1 {
+              font-size: 16px;
+              text-align: center;
+              margin-left: 0;
+              padding-top: 5px;
+          }
+        
+          .footer .logo {
+              margin-top: 25px;
+          }
+        
+          .footer .footer-logo {
+              width: 35px;
+              margin-right: 120px;
+          }
+        
+          .social-icons {
+              justify-content: center;
+              margin-top: 45px;
+              margin-right: 120px;
+          }
+        
+          .social-icons a {
+              font-size: 20px;
+          }
+      
+      }
