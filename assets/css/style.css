@@ -554,6 +554,36 @@
         margin-top: -110px;
         max-height: 5cm;
     }
+    .footer {
+        padding: 10px;
+    }
+  
+    .footer h1 {
+        font-size: 16px;
+        text-align: center;
+        margin-left: -20px;
+        padding-top: 5px;
+    }
+  
+    .footer .logo {
+        margin-top: 25px;
+        margin-left: -20px;
+    }
+  
+    .footer .footer-logo {
+        width: 35px;
+        margin-left: -20px;
+    }
+  
+    .social-icons {
+        justify-content: center;
+        margin-top: 45px;
+        margin-left: -20px;
+    }
+  
+    .social-icons a {
+        font-size: 20px;
+    }
 }
 
 
@@ -723,63 +753,10 @@
         padding-left: 15px; 
     }
     .start-btn {
-        margin-top: -75px;
-        margin-left: -180px;
+        margin-top: -85px;
+        margin-left: -280px;
         transform: translateX(-50%);
     }
-    .footer h1 {
-        font-size: 16px;
-        margin-left: 120px;
-        padding-top: 25px;
-        margin-bottom: 15px;
-    }
-
-    .footer .logo {
-        margin-top: 25px;
-    }
-
-    .footer .footer-logo {
-        width: 30px;
-        margin-left: -90px;
-    }
-
-    .social-icons {
-        flex-direction: row-reverse;
-        gap: 15px;
-        margin-top: 40px;
-        margin-left: -90px;
-    }
-
-    .social-icons a {
-        font-size: 20px;
-    }
-}
-
-/* SMALLER SCREEN */
-@media screen and (max-width: 932px) {
-    /* Adjustments for iPhone 14 Pro Max in landscape */
-    .navbar-custom {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .navbar-custom .navbar-brand {
-        margin-left: 10px;
-    }
-
-    .navbar-brand img {
-        width: 80px; 
-        margin-left: 0; 
-    }
-
-    .navbar-custom .navbar-nav {
-        margin-left: 0;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
     .footer {
         padding: 10px;
     }
@@ -787,27 +764,28 @@
     .footer h1 {
         font-size: 16px;
         text-align: center;
-        margin-left: -20px;
+        margin-left: -40px;
         padding-top: 5px;
     }
   
     .footer .logo {
-        margin-top: 25px;
-        margin-left: -20px;
+        margin-top: 5px;
+        margin-left: 10px;
     }
   
     .footer .footer-logo {
-        width: 35px;
-        margin-left: -20px;
+        width: 105px;
+        margin-left: -50px;
     }
   
     .social-icons {
         justify-content: center;
-        margin-top: 45px;
-        margin-left: -20px;
+        margin-top: 15px;
+        margin-left: -50px;
     }
   
     .social-icons a {
         font-size: 20px;
     }
 }
+
