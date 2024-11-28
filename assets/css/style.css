@@ -755,3 +755,59 @@
     }
 }
 
+/* SMALLER SCREEN */
+@media screen and (max-width: 932px) {
+    /* Adjustments for iPhone 14 Pro Max in landscape */
+    .navbar-custom {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-custom .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-brand img {
+        width: 80px; 
+        margin-left: 0; 
+    }
+
+    .navbar-custom .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer {
+        padding: 10px;
+    }
+  
+    .footer h1 {
+        font-size: 16px;
+        text-align: center;
+        margin-left: -20px;
+        padding-top: 5px;
+    }
+  
+    .footer .logo {
+        margin-top: 25px;
+        margin-left: -20px;
+    }
+  
+    .footer .footer-logo {
+        width: 35px;
+        margin-left: -20px;
+    }
+  
+    .social-icons {
+        justify-content: center;
+        margin-top: 45px;
+        margin-left: -20px;
+    }
+  
+    .social-icons a {
+        font-size: 20px;
+    }
+}
