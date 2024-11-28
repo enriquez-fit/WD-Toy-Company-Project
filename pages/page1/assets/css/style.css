@@ -4,7 +4,7 @@
 }
 html, body {
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-x: hidden; 
 
 }
 
@@ -18,7 +18,7 @@ html, body {
 
 .navbar-custom {
     background-color:#F9E707;
-    padding-top: 15px;  /* For Increasing of the NavBar Size */
+    padding-top: 15px;  
     padding-bottom: 15px;
 }
 
@@ -35,19 +35,19 @@ html, body {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link
 .navbar-brand {
-    margin-left: 30px; /* For Moving the Logo */
+    margin-left: 30px; 
 }
 
 .navbar-brand img {
     margin-right: 30%;
     margin-left: 3%;
-    width: 140px; /* For Increasing of the Logo Size */
+    width: 140px;
     display: flex;
     align-items: center;
 }
 
 .navbar-custom .navbar-nav {
-    margin-left: 430px; /* For Moving the Text */
+    margin-left: 430px; 
 }
 
 .nav-link{
@@ -58,18 +58,18 @@ html, body {
     color: #5b5757;
 }
 .dropdown .dropdown-toggle {
-    background-color: transparent; /* Remove background */
-    border: none; /* Remove border */
+    background-color: transparent; 
+    border: none; 
     color: #5b5757;
     font-size: 15px;
     font-family: "Questrial", sans-serif;
     transition: color 0.3s ease, transform 0.3s ease;
-    box-shadow: none; /* No shadow */
+    box-shadow: none; 
 }
 
 .dropdown .dropdown-toggle:hover {
     color: #89C914;
-    transform: scale(1.1); /* Add a subtle scaling effect */
+    transform: scale(1.1); 
 }
 
 /* Dropdown Style */
@@ -78,16 +78,16 @@ html, body {
 }
 
 .dropdown-menu {
-    display: none; /* Hide dropdown by default */
+    display: none; 
     position: absolute;
-    top: 100%; /* Position dropdown below the "Products" link */
+    top: 100%; 
     left: 0;
-    background-color: #F9E707; /* Match navbar color */
+    background-color: #F9E707; 
     border: none;
     padding: 10px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     z-index: 1000;
-    width: 200px; /* Set width for uniformity */
+    width: 200px; 
 }
 
 .dropdown-menu .dropdown-item {
@@ -104,12 +104,12 @@ html, body {
     color: #fff;
 }
 
-/* Show dropdown on hover */
+
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Remove dropdown arrow from "Products" */
+
 .nav-link#productsDropdown::after {
     display: none;
 }
@@ -227,7 +227,7 @@ html, body {
 }
 
 .footer .footer-logo {
-    width: 40px; /* For the Logo Size */
+    width: 40px; 
     height: auto;
     margin-top: -25px;
 }
@@ -235,7 +235,7 @@ html, body {
 .social-icons {
     display: flex;
     justify-content: right;
-    gap: 25px; /* For the Space Between the Icons */
+    gap: 25px; 
     margin-top: 8px;
     margin-right: 60px;
 }
@@ -253,40 +253,40 @@ html, body {
 }
 
 .btn2 {
-    text-align: center; /* Centers the button horizontally */
-    margin-top: 50px; /* Adjust top margin as needed */
+    text-align: center; 
+    margin-top: 50px; 
   }
   
   .about-btn {
     margin-top: 50px;
-    display: inline-block; /* Ensures proper alignment */
-    padding: 2px 90px; /* Adjust padding for size */
-    border-radius: 50px; /* Rounded corners */
-    border: none; /* Removes border */
-    background:#F9E707; /* Green button color */
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
-    position: relative; /* Ensures z-index works */
-    text-decoration: none; /* Removes underline from <a> */
+    display: inline-block;
+    padding: 2px 90px;
+    border-radius: 50px; 
+    border: none;
+    background:#F9E707;
+    transition: all 0.3s ease; 
+    position: relative;
+    text-decoration: none; 
     font-family: "smiski", sans-serif;
     font-size: 12px;
-    letter-spacing: 15px; /* Space between letters */
+    letter-spacing: 15px;
     
   }
   
   /* Button hover effect */
   .about-btn:hover {
-    background:#f1e108; /* Darker green on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+    background:#f1e108; 
+    transform: scale(1.05); 
   }
   
   /* Styling the <h1> inside the button */
   .about-btn h1 {
-    margin: 0; /* Remove extra margin */
-    padding: 0; /* Remove padding */
+    margin: 0; 
+    padding: 0;
     text-align: center;
     font-size: 24px;
-    letter-spacing: 4px; /* Adjust spacing for better readability */
-    line-height: 1.5; /* Center text vertically */
+    letter-spacing: 4px; 
+    line-height: 1.5;
     padding-top: 8px;
     color: #ffffff;
   }
@@ -329,12 +329,12 @@ html, body {
     .footer h1 {
         font-size: 14px;
         margin-left: 0;
-        padding-top: 20px; /* Increased space from top */
-        margin-bottom: 15px; /* Added space below the text */
+        padding-top: 20px;
+        margin-bottom: 15px; 
     }
 
     .footer .logo {
-        margin-top: 20px; /* Increased space above the logo */
+        margin-top: 20px; 
     }
 
     .footer .footer-logo {
@@ -343,7 +343,7 @@ html, body {
 
     .social-icons {
         flex-direction: row-reverse;
-        gap: 15px; /* Increased gap between social icons */
+        gap: 15px; 
         margin-top: 40px;
     }
 
@@ -356,21 +356,21 @@ html, body {
     .footer h1 {
         font-size: 16px;
         margin-left: 0;
-        padding-top: 25px; /* Adjusted for better spacing */
+        padding-top: 25px; 
         margin-bottom: 15px;
     }
 
     .footer .logo {
-        margin-top: 25px; /* Adjusted for better spacing */
+        margin-top: 25px; 
     }
 
     .footer .footer-logo {
-        width: 10px; /* Keeping the logo size similar */
+        width: 10px; 
     }
 
     .social-icons {
         flex-direction: row-reverse;
-        gap: 15px; /* Increased gap between social icons */
+        gap: 15px; 
         margin-top: 40px;
     }
 
@@ -388,56 +388,56 @@ html, body {
         padding-bottom: 10px;
     }
     .navbar-custom .navbar-brand {
-        margin-left: 15px; /* Reduce spacing for smaller screens */
+        margin-left: 15px;
     }
     .navbar-brand img {
-        width: 100px; /* Adjust logo size */
+        width: 100px;
     }
     .navbar-custom .navbar-nav {
-        margin-left: 0; /* Center align */
+        margin-left: 0; 
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .nav-link {
-        margin-left: 0; /* Remove spacing */
-        margin-bottom: 10px; /* Add spacing between links */
+        margin-left: 0; 
+        margin-bottom: 10px;
     }
     .hero h1, .hero h2 {
-        font-size: 40px; /* Adjust heading size */
+        font-size: 40px; 
         letter-spacing: 10px;
         padding-left: 10px;
         padding-top: 100px;
     }
     .hero {
-        min-height: 70vh; /* Adjust height for smaller screens */
+        min-height: 70vh;
     }
 }
 
 /* For extra small devices (e.g., smartphones) */
 @media (max-width: 576px) {
     .navbar-brand img {
-        width: 80px; /* Further reduce logo size */
+        width: 80px; 
     }
     .navbar-custom {
         padding-top: 5px;
         padding-bottom: 5px;
     }
     .dropdown-menu {
-        width: 100%; /* Full width for dropdowns */
+        width: 100%; 
         left: 0;
     }
     .hero {
-        min-height: 70vh; /* Adjust the height for small screens */
+        min-height: 10vh; 
     }
     .hero h1, .hero h2 {
-        font-size: 35px; /* Smaller headings for small screens */
+        font-size: 35px; 
         letter-spacing: 5px;
-        text-align: center; /* Center the headings */
-        margin: 0; /* Reset margins */
-        padding: 0; /* Add consistent padding */
-        position: relative; /* Ensure proper stacking */
+        text-align: center; 
+        margin: 0;
+        padding: 0; 
+        position: relative; 
     }
     .hero h1{
         padding-top: 110px;
@@ -445,9 +445,14 @@ html, body {
         padding-bottom: 0;
     }
     .hero h2 {
-        z-index: 2; /* Ensure it layers correctly */
+        z-index: 2;
         padding-top: -90px;
         margin-top: 0;
+    }
+    .hero img {
+        width: 700px;
+        padding-left: 60px; 
+        margin-top: 5px; 
     }
 }
 
@@ -477,54 +482,21 @@ html, body {
         align-items: center;
     }
 
-    .hero {
-        position: relative; /* Added to control positioning of child elements */
-        min-height: 70vh;
-    }
-
-    .hero h1, .hero h2 {
-        position: relative;
-        font-size: 20px;
-        letter-spacing: 10px;
-        top: -170px;
-        left: 50px;
-    }
-
-    .hero img {
-        position: relative; /* Added */
-        margin-left: 100px;
-        width: 100px;
-        margin-top: 90px;
-    }
-
-    /* Content section adjustments */
-    .content img {
-        margin-top: -290px;
-    }
-
-    .content p, .content strong {
-        font-size: 11px;
-        text-align: center;
-        margin-left: 60px;
-        letter-spacing: 0;
-    }
-
     /* Button adjustments */
     .about-btn {
-        font-size: 12px; /* Increased font size for better readability */
-        height: 50px; /* Adjusted button height */
-        width: 300px; /* Adjusted button width */
+        font-size: 12px;
+        height: 50px;
+        width: 300px;
         margin-left: 0;
-        margin-top: -20px; /* Adjusted top margin for spacing */
+        margin-top: -20px;
         margin-bottom: 30px;
     }
 
     .about-btn h1 {
-        font-size: 18px; /* Adjusted for readability */
+        font-size: 18px;
         letter-spacing: 3px;
         margin-left: -30px;
-        margin-top: 125px; /* Adjusted for proper spacing */
-    
+        margin-top: 125px;
     }
 
     /* Footer adjustments */
@@ -558,6 +530,7 @@ html, body {
 }
 
 
+
 /* iPhone 14 Pro Max - LANDSCAPE */
 @media screen and (max-width: 932px) {
     /* Adjustments for iPhone 14 Pro Max in landscape */
@@ -571,8 +544,8 @@ html, body {
     }
 
     .navbar-brand img {
-        width: 80px; /* Adjusted for better fit */
-        margin-left: 0; /* Adjusted for proper alignment */
+        width: 80px;
+        margin-left: 0; 
     }
 
     .navbar-custom .navbar-nav {
@@ -583,53 +556,67 @@ html, body {
         align-items: center;
     }
     
-    .hero h1, .hero h2 {
-        position: relative; /* Use relative positioning */
-        top: 30px; /* Adjusted for proper placement */
-        margin-left: 80px;
-        
+    .hero {
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
     }
 
-    .hero {
-        min-height: 60vh; /* Adjusted height to fit better in landscape */
+    .hero h1, .hero h2 {
+        position: relative;
+        font-size: 35px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .hero h2 {
+        margin-top: -10px;
     }
 
     .hero img {
-        position: relative;
-        padding-left: 180px; /* Adjusted image positioning */
-        width: 40px; /* Reduced size for better fit */
-        margin-top: 10px; /* Adjusted for spacing */
-        padding-top: 30px;
+        width: 550px;
+        padding-left: 15px;
+        
+        /* Removed padding-left and adjusted for centering */
+    }
+
+    /* Content section adjustments */
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .content img {
-        padding-top: 160px; /* Adjusted for image placement */
-        left: 90px;
-        width: 650px;
+        width: 550px;
+       padding-top: 100px; /* Adjusted image placement */
     }
 
     .content p, .content strong {
-        font-size: 12px; /* Slightly increased font size for readability */
+        font-size: 11px;
         text-align: center;
-        margin-left: 0;
         letter-spacing: 0;
-        line-height: 1.4; /* Added line-height for better readability */
+        margin-left: 0;
     }
 
     .about-btn {
-        font-size: 12px; /* Increased font size for better readability */
-        height: 50px; /* Adjusted button height */
-        width: 300px; /* Adjusted button width */
+        font-size: 12px; 
+        height: 50px;
+        width: 300px; 
         margin-left: 0;
-        margin-top: -20px; /* Adjusted top margin for spacing */
+        margin-top: -20px; 
         margin-bottom: 30px;
     }
 
     .about-btn h1 {
-        font-size: 18px; /* Adjusted for readability */
+        font-size: 18px;
         letter-spacing: 3px;
-        padding-right: 60px;
-        padding-top: 110px; /* Adjusted for proper spacing */
+        padding-left: 70px;
+        padding-top: 110px;
     
     }
 
@@ -647,43 +634,43 @@ html, body {
     }
 
     .navbar-custom .navbar-nav {
-        margin-left: 0; /* Center nav links */
-        justify-content: center; /* Align nav links in the center */
+        margin-left: 0;
+        justify-content: center;
     }
 
     .nav-link {
-        font-size: 10px; /* Decrease font size to ensure single line */
-        margin-left: 40px; /* Reduce spacing to fit within view */
-        white-space: nowrap; /* Prevent nav links from wrapping */
-        text-overflow: ellipsis; /* Add ellipsis for long links if necessary */
-        overflow: hidden; /* Prevent overflowing content */
+        font-size: 10px;
+        margin-left: 40px; 
+        white-space: nowrap; 
+        text-overflow: ellipsis; 
+        overflow: hidden;
     }
 
     .dropdown-menu {
-        width: 100%; /* Full width for dropdowns */
+        width: 100%; 
         left: 0;
     }
 
 .hero {
-    min-height: 100vh; /* Maintained height across devices */
+    min-height: 100vh; 
 }
 
 .hero img {
     position: relative;
     margin-left: 220px;
-    width: 480px; /* Smaller size to fit the portrait mode screen */
+    width: 480px; 
     margin-top: 125px;
 }
 
 /* Content section adjustments */
 .content img {
-    margin-top: -50px; /* Adjusted to position properly on screen */
+    margin-top: -50px;
     margin-left: -90px;
     width: 620px;
 }
 
 .content p, .content strong {
-    font-size: 24px; /* Increased font size for readability on iPad */
+    font-size: 24px;
     text-align: center;
     margin-left: 0;
     letter-spacing: 0;
@@ -693,7 +680,7 @@ html, body {
 /* Button adjustments */
 .about-btn {
     font-size: 14px;
-    height: 55px; /* Slightly larger to accommodate touch areas */
+    height: 55px; 
     width: 320px;
     margin-left: 0;
     margin-top: -15px;
@@ -712,7 +699,7 @@ html, body {
 /* iPad Pro - Landscape */
 @media screen and (max-width: 1366px) {
     .navbar-brand img {
-        width: 80px; /* Further reduce logo size */
+        width: 80px; 
     }
 
     .navbar-custom {
@@ -721,17 +708,17 @@ html, body {
     }
 
     .navbar-custom .navbar-nav {
-        margin-left: 200px; /* Center nav links */
+        margin-left: 200px; 
         justify-content: center;
     }
 
     .nav-link {
-        font-size: 12px; /* Adjust font size */
-        margin-left: 15px; /* Reduce spacing */
+        font-size: 12px; 
+        margin-left: 15px;
     }
 
     .dropdown-menu {
-        width: 100%; /* Full width for dropdowns */
+        width: 100%; 
         left: 0;
     }
 
@@ -739,31 +726,31 @@ html, body {
     /* Hero section adjustments */
     .hero h1, .hero h2 {
        position: relative;
-       top: 30px; /* Adjusted for better vertical alignment on landscape */
+       top: 30px; 
        left: 25px;
-       font-size: 60px; /* Adjusted for better visibility */
+       font-size: 60px; 
     }
  
     .hero {
-       min-height: 100vh; /* Slightly reduced to fit content better in landscape */
+       min-height: 100vh; 
     }
  
     .hero img {
        position: relative;
-       right: -30px; /* Adjusted image position to center on screen */
-       width: 550px; /* Reduced width to fit the landscape mode */
+       right: -30px; 
+       width: 550px; 
        margin-top: 100px;
     }
  
     /* Content section adjustments */
     .content img {
-       margin-top: -130px; /* Adjusted to position properly on screen */
-       left: 240px; /* Adjusted positioning for content */
-       width: 750px; /* Adjusted width for content */
+       margin-top: -130px;
+       left: 240px;
+       width: 750px; 
     }
  
     .content p, .content strong {
-       font-size: 20px; /* Adjusted font size for readability */
+       font-size: 20px; 
        text-align: center;
        margin-left: -30px;
        letter-spacing: 0;
@@ -772,19 +759,19 @@ html, body {
  
     /* Button adjustments */
     .about-btn {
-       font-size: 16px; /* Increased font size for better readability */
-       height: 60px; /* Slightly larger height for touch accessibility */
-       width: 350px; /* Adjusted width to fit better */
+       font-size: 16px;
+       height: 60px; 
+       width: 350px; 
        margin-left: -30px;
        margin-top: -20px;
        margin-bottom: 25px;
     }
  
     .about-btn h1 {
-       font-size: 22px; /* Increased font size for visibility */
+       font-size: 22px; 
        letter-spacing: 3px;
        margin-left: -45px;
-       margin-top: -25px; /* Adjusted for better vertical placement */
+       margin-top: -25px;
     }
 }
  /* SMALLER SCREEN */
@@ -800,8 +787,8 @@ html, body {
             }
         
             .navbar-brand img {
-                width: 80px; /* Adjusted for better fit */
-                margin-left: 0; /* Adjusted for proper alignment */
+                width: 80px; 
+                margin-left: 0; 
             }
         
             .navbar-custom .navbar-nav {
@@ -813,8 +800,8 @@ html, body {
             }
             
             .hero h1, .hero h2 {
-                position: relative; /* Use relative positioning */
-                top: -190px; /* Adjusted for proper placement */
+                position: relative; 
+                top: -190px; 
                 margin-left:-100px;
                 font-size: 35px;
                 margin-top: 5px;
@@ -824,41 +811,40 @@ html, body {
             }
         
             .hero {
-                min-height: 60vh; /* Adjusted height to fit better in landscape */
+                min-height: 60vh; 
             }
         
             .hero img {
                 position: relative;
-                right: 160px; /* Adjusted image positioning */
-                width:320px; /* Reduced size for better fit */
-                margin-top:100px; /* Adjusted for spacing */
+                right: 160px; 
+                width:320px; 
+                margin-top:100px; 
             }
         
             .content img {
-                margin-top: -360px; /* Adjusted for image placement */
+                margin-top: -360px; 
                 left: 40px;
                 width: 550px;
             }
         
             .content p, .content strong {
-                font-size: 12px; /* Slightly increased font size for readability */
+                font-size: 12px; 
                 text-align: center;
                 margin-left: 0;
                 letter-spacing: 0;
-                line-height: 1.4; /* Added line-height for better readability */
+                line-height: 1.4; 
             }
-        
             .about-btn {
-                font-size: 12px; /* Increased font size for better readability */
-                height: 50px; /* Adjusted button height */
-                width: 300px; /* Adjusted button width */
+                font-size: 12px; 
+                height: 50px;
+                width: 300px; 
                 margin-left: 0;
-                margin-top: -20px; /* Adjusted top margin for spacing */
+                margin-top: -20px; 
                 margin-bottom: 30px;
             }
         
             .about-btn h1 {
-                font-size: 22px; /* Adjusted for readability */
+                font-size: 22px; 
                 letter-spacing: 3px;
                 margin-left: -120px;
                 top: -105px;

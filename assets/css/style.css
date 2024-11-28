@@ -100,12 +100,12 @@
     color: #fff;
 }
 
-/* Show dropdown on hover */
+
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Remove dropdown arrow from "Products" */
+
 .nav-link#productsDropdown::after {
     display: none;
 }
@@ -256,9 +256,9 @@
 
 .btn2 {
 
-    text-align: center; /* Centers the button horizontally */
+    text-align: center; 
 
-    margin-top: 50px; /* Adjust top margin as needed */
+    margin-top: 50px; 
 
   }
 
@@ -268,29 +268,29 @@
 
   .about-btn {
 
-    display: inline-block; /* Ensures proper alignment */
+    display: inline-block; 
 
-    color: #ffffff; /* Button text color */
+    color: #ffffff; 
 
-    padding: 5px 50px; /* Adjust padding for size */
+    padding: 5px 50px; 
 
-    border-radius: 50px; /* Rounded corners */
+    border-radius: 50px;
 
-    border: none; /* Removes border */
+    border: none; 
 
-    background: #77BD26; /* Green button color */
+    background: #77BD26; 
 
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    transition: all 0.3s ease;
 
-    position: relative; /* Ensures z-index works */
+    position: relative; 
 
-    text-decoration: none; /* Removes underline from <a> */
+    text-decoration: none; 
 
     font-family: "smiski", sans-serif;
 
     font-size: 12px;
 
-    letter-spacing: 15px; /* Space between letters */
+    letter-spacing: 15px; 
 
   }
 
@@ -300,9 +300,9 @@
 
   .about-btn:hover {
 
-    background: #5AAE22; /* Darker green on hover */
+    background: #5AAE22; 
 
-    transform: scale(1.05); /* Slight zoom effect */
+    transform: scale(1.05); 
 
   }
 
@@ -312,17 +312,17 @@
 
   .about-btn h1 {
 
-    margin: 0; /* Remove extra margin */
+    margin: 0; 
 
-    padding: 0; /* Remove padding */
+    padding: 0; 
 
     text-align: center;
 
     font-size: 24px;
 
-    letter-spacing: 4px; /* Adjust spacing for better readability */
+    letter-spacing: 4px; 
 
-    line-height: 1.5; /* Center text vertically */
+    line-height: 1.5; 
 
     padding-top: 8px;
 
@@ -378,40 +378,40 @@
 }
 /* Button container styling */
 .btn2 {
-    text-align: center; /* Centers the button horizontally */
-    margin-top: 50px; /* Adjust top margin as needed */
+    text-align: center; 
+    margin-top: 50px; 
   }
   
   /* Styling the button */
   .about-btn {
-    display: inline-block; /* Ensures proper alignment */
-    color: #ffffff; /* Button text color */
-    padding: 5px 50px; /* Adjust padding for size */
-    border-radius: 50px; /* Rounded corners */
-    border: none; /* Removes border */
-    background: #77BD26; /* Green button color */
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
-    position: relative; /* Ensures z-index works */
-    text-decoration: none; /* Removes underline from <a> */
+    display: inline-block; 
+    color: #ffffff; 
+    padding: 5px 50px;
+    border-radius: 50px; 
+    border: none; 
+    background: #77BD26;
+    transition: all 0.3s ease;
+    position: relative; 
+    text-decoration: none;
     font-family: "smiski", sans-serif;
     font-size: 12px;
-    letter-spacing: 15px; /* Space between letters */
+    letter-spacing: 15px;
   }
   
   /* Button hover effect */
   .about-btn:hover {
-    background: #5AAE22; /* Darker green on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+    background: #5AAE22; 
+    transform: scale(1.05);
   }
   
   /* Styling the <h1> inside the button */
   .about-btn h1 {
-    margin: 0; /* Remove extra margin */
-    padding: 0; /* Remove padding */
+    margin: 0;
+    padding: 0; 
     text-align: center;
     font-size: 24px;
-    letter-spacing: 4px; /* Adjust spacing for better readability */
-    line-height: 1.5; /* Center text vertically */
+    letter-spacing: 4px; 
+    line-height: 1.5;
     padding-top: 8px;
   }
 
@@ -420,10 +420,10 @@
 
   /* /MEDIA QUERY FOR NAVBAR/ */
   
-  /* For extra small devices (e.g., smartphones) */
+  /* For extra small devices */
 @media (max-width: 576px) {
     .navbar-brand img {
-        width: 80px; /* Further reduce logo size */
+        width: 80px; 
     }
 
     .navbar-custom {
@@ -432,24 +432,24 @@
     }
 
     .navbar-custom .navbar-nav {
-        margin-left: 0; /* Center nav links */
+        margin-left: 0; 
         justify-content: center;
     }
 
     .nav-link {
-        font-size: 12px; /* Adjust font size */
-        margin-left: 5px; /* Reduce spacing */
+        font-size: 12px;
+        margin-left: 5px; 
     }
 
     .dropdown-menu {
-        width: 100%; /* Full width for dropdowns */
+        width: 100%;
         left: 0;
     }
 }
 /* NAVBAR IPAD PRO - PORTRAIT */
 @media (max-width: 1024px) {
     .navbar-brand img {
-        width: 80px; /* Reduce logo size */
+        width: 80px;
     }
 
     .navbar-custom {
@@ -458,20 +458,19 @@
     }
 
     .navbar-custom .navbar-nav {
-        margin-left: 0; /* Center nav links */
-        justify-content: center; /* Align nav links in the center */
+        margin-left: 0; 
+        justify-content: center; 
     }
-
     .nav-link {
-        font-size: 10px; /* Decrease font size to ensure single line */
-        margin-left: 20px; /* Reduce spacing to fit within view */
-        white-space: nowrap; /* Prevent nav links from wrapping */
-        text-overflow: ellipsis; /* Add ellipsis for long links if necessary */
-        overflow: hidden; /* Prevent overflowing content */
+        font-size: 10px; 
+        margin-left: 20px; 
+        white-space: nowrap;
+        text-overflow: ellipsis; 
+        overflow: hidden;
     }
 
     .dropdown-menu {
-        width: 100%; /* Full width for dropdowns */
+        width: 100%;
         left: 0;
     }
 }
@@ -483,73 +482,73 @@
 @media (max-width: 768px) {
     .hero {
         background-position: top;
-        min-height: 50vh; /* Reduce height on smaller screens */
+        min-height: 50vh; 
     }
 
     .start-btn {
         margin-top: -40px;
-        margin-left: 410px; /* Remove unnecessary offset */
-        font-size: 14px; /* Adjust font size for smaller screens */
-        padding: 8px 25px; /* Adjust padding for smaller button */
+        margin-left: 410px;
+        font-size: 14px; 
+        padding: 8px 25px; 
     }
 
     .start-btn h1 {
-        font-size: 14px; /* Adjust heading size */
-        letter-spacing: 8px; /* Slightly reduce spacing */
+        font-size: 14px;
+        letter-spacing: 8px; 
     }
 }
 
 @media (max-width: 576px) {
     .hero {
-        min-height: 40vh; /* Further reduce height for very small screens */
-        text-align: center; /* Center content on smaller screens */
-        background-size:cover; /* Ensure the entire image is visible */
+        min-height: 40vh; 
+        text-align: center; 
+        background-size:cover;
         background-position: left top;
 
     }
 
     .start-btn {
-        font-size: 8px; /* Smaller font for smaller devices */
-        padding: 3px 10px; /* Compact button size */
-        margin-top: -80px; /* Align button properly */
+        font-size: 8px;
+        padding: 3px 10px; 
+        margin-top: -80px;
         margin-right: 660px;
     }
 
     .start-btn h1 {
-        font-size: 12px; /* Adjust heading size */
-        letter-spacing: 6px; /* Reduce spacing further */
+        font-size: 12px; 
+        letter-spacing: 6px; 
     }
 }
 
-/* For smaller screens (e.g., smartphones, tablets) */
+/* For smaller screens  */
 @media (max-width: 768px) {
     .vframe {
-        padding: 5px; /* Reduce padding for smaller screens */
-        border-width: 5px; /* Thinner border */
-        border-radius: 15px; /* Slightly less rounded corners */
-        display: block; /* Ensure proper alignment */
-        margin: 0 auto; /* Center align the video frame */
+        padding: 5px; 
+        border-width: 5px; 
+        border-radius: 15px; 
+        display: block; 
+        margin: 0 auto; 
     }
 
     .video-container iframe {
-        width: 100%; /* Full width to fit the screen */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 8px; /* Adjust border-radius */
+        width: 100%; 
+        height: auto; 
+        border-radius: 8px; 
     }
 }
 
-/* For extra small screens (e.g., smartphones) */
+/* For extra small screens */
 @media (max-width: 576px) {
     .vframe {
-        padding: 2px; /* Further reduce padding */
-        border-width: 10px; /* Even thinner border */
-        border-radius: 10px; /* Keep a smooth look */
+        padding: 2px; 
+        border-width: 10px; 
+        border-radius: 10px; 
     }
 
     .video-container iframe {
-        width: 100%; /* Full width for smallest screens */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 5px; /* Slight rounding for small screens */
+        width: 100%; 
+        height: auto; 
+        border-radius: 5px; 
     }
     .video-container {
         margin-top: -110px;
@@ -596,13 +595,12 @@
     .footer h1 {
         font-size: 14px;
         margin-left: 0;
-        padding-top: 20px; /* Increased space from top */
-        margin-bottom: 15px; /* Added space below the text */
+        padding-top: 20px; 
+        margin-bottom: 15px;
     }
   
     .footer .logo {
-        margin-top: 20px; /* Increased space above the logo */
-        
+        margin-top: 20px; 
     }
   
     .footer .footer-logo {
@@ -612,7 +610,7 @@
   
     .social-icons {
         flex-direction: row-reverse;
-        gap: 15px; /* Increased gap between social icons */
+        gap: 15px;
         margin-top: 40px;
     }
   
@@ -620,41 +618,12 @@
         font-size: 18px;
     }
   }
-  /* Media Query for iPhone XR (Portrait Mode) */
-  @media screen and (max-width: 414px) {
-    .footer h1 {
-        font-size: 16px;
-        margin-left: 0;
-        padding-top: 25px; /* Adjusted for better spacing */
-        margin-bottom: 15px;
-    }
-  
-    .footer .logo {
-        margin-top: 25px; /* Adjusted for better spacing */
-    }
-  
-    .footer .footer-logo {
-        width: 10px; /* Keeping the logo size similar */
-    }
-  
-    .social-icons {
-        flex-direction: row-reverse;
-        gap: 15px; /* Increased gap between social icons */
-        margin-top: 40px;
-    }
-  
-    .social-icons a {
-        font-size: 20px;
-    }
-  }
-  /* END OF MEDIA QUERY FOR FOOTER */
-
-
+ 
 
 /* iPad Pro - Landscape */
 @media screen and (max-width: 1366px) {
     .navbar-brand img {
-        width: 80px; /* Further reduce logo size */
+        width: 80px; 
     }
 
     .navbar-custom {
@@ -663,17 +632,17 @@
     }
 
     .navbar-custom .navbar-nav {
-        margin-left: 200px; /* Center nav links */
+        margin-left: 200px; 
         justify-content: center;
     }
 
     .nav-link {
-        font-size: 12px; /* Adjust font size */
-        margin-left: 15px; /* Reduce spacing */
+        font-size: 12px; 
+        margin-left: 15px; 
     }
 
     .dropdown-menu {
-        width: 100%; /* Full width for dropdowns */
+        width: 100%; 
         left: 0;
     }
     .hero img {
@@ -681,9 +650,9 @@
     }
     .start-btn {
         position: absolute;
-        top: 59%; /* Moves down from the top */
-        left: 280px; /* Moves right from the left */
-        transform: translate(-50%, -50%); /* Centers the button */
+        top: 59%; 
+        left: 280px;
+        transform: translate(-50%, -50%);
       }
       .hero {
         min-height: 80vh;
@@ -693,10 +662,6 @@
      
       
 }
-
-
-
-/* RESPONSIVE DESIGN: Media Queries */
 
 /* For Tablets */
 @media (max-width: 768px) {
@@ -742,52 +707,51 @@
     }
 }
 
-/* For Mobile Devices */
-@media (max-width: 480px) {
-    .navbar-custom {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+/* IPHONE 14 PRO MAX */
 
-    .navbar-brand img {
-        width: 100px;
+@media (max-width: 576px) {
+    .hero {
+        min-height: 40vh;
     }
-
-    .navbar-custom .navbar-nav {
-        margin-left: 0;
-        text-align: center;
+    .hero h1 {
+        font-size: 30px; 
+        padding-top: 60px; 
+        padding-left: 15px;
     }
-
+    .hero h2 {
+        font-size: 30px;
+        padding-left: 15px; 
+    }
     .start-btn {
-        margin-top: 180px;
-        margin-left: 50%;
+        margin-top: -75px;
+        margin-left: -180px;
         transform: translateX(-50%);
     }
-
-    .space h1 {
-        font-size: 40px;
-    }
-
-    .space h2 {
-        font-size: 25px;
-    }
-
-    .space p {
-        font-size: 14px;
-    }
-
-    .video-container iframe {
-        width: 100%;
-        height: 300px;
-    }
-
     .footer h1 {
-        font-size: 14px;
-        text-align: center;
+        font-size: 16px;
+        margin-left: 120px;
+        padding-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .footer .logo {
+        margin-top: 25px;
+    }
+
+    .footer .footer-logo {
+        width: 30px;
+        margin-left: -90px;
     }
 
     .social-icons {
-        justify-content: center;
-        margin-top: 10px;
+        flex-direction: row-reverse;
+        gap: 15px;
+        margin-top: 40px;
+        margin-left: -90px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
     }
 }
+

@@ -13,7 +13,7 @@
 
 .navbar-custom {
   background-color:#F9E707;
-  padding-top: 15px;  /* For Increasing of the NavBar Size */
+  padding-top: 15px;  
   padding-bottom: 15px;
 }
 
@@ -30,19 +30,19 @@
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link
 .navbar-brand {
-  margin-left: 30px; /* For Moving the Logo */
+  margin-left: 30px; 
 }
 
 .navbar-brand img {
   margin-right: 30%;
   margin-left: 3%;
-  width: 140px; /* For Increasing of the Logo Size */
+  width: 140px; 
   display: flex;
   align-items: center;
 }
 
 .navbar-custom .navbar-nav {
-  margin-left: 430px; /* For Moving the Text */
+  margin-left: 430px; 
 }
 
 .nav-link{
@@ -53,18 +53,18 @@
   color: #5b5757;
 }
 .dropdown .dropdown-toggle {
-  background-color: transparent; /* Remove background */
-  border: none; /* Remove border */
+  background-color: transparent;
+  border: none; 
   color: #5b5757;
   font-size: 15px;
   font-family: "Questrial", sans-serif;
   transition: color 0.3s ease, transform 0.3s ease;
-  box-shadow: none; /* No shadow */
+  box-shadow: none; 
 }
 
 .dropdown .dropdown-toggle:hover {
   color: #89C914;
-  transform: scale(1.1); /* Add a subtle scaling effect */
+  transform: scale(1.1); 
 }
 
 /* Dropdown Style */
@@ -73,16 +73,16 @@
 }
 
 .dropdown-menu {
-  display: none; /* Hide dropdown by default */
+  display: none; 
   position: absolute;
-  top: 100%; /* Position dropdown below the "Products" link */
+  top: 100%; 
   left: 0;
-  background-color: #F9E707; /* Match navbar color */
+  background-color: #F9E707; 
   border: none;
   padding: 10px 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  width: 200px; /* Set width for uniformity */
+  width: 200px; 
 }
 
 .dropdown-menu .dropdown-item {
@@ -159,7 +159,7 @@
 }
 
 .footer .footer-logo {
-  width: 40px; /* For the Logo Size */
+  width: 40px; 
   height: auto;
   margin-top: -25px;
 }
@@ -167,7 +167,7 @@
 .social-icons {
   display: flex;
   justify-content: right;
-  gap: 25px; /* For the Space Between the Icons */
+  gap: 25px;
   margin-top: 8px;
   margin-right: 60px;
 }
@@ -198,9 +198,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
   padding-top: 100px;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   position: relative;
 }
 
@@ -214,12 +214,12 @@
 .logo-smiski h1 {
   font-family: 'smiski';
   color: #5AAE22;
-  font-size: 55px; /* Adjust size */
+  font-size: 55px; 
   position: absolute;
-  top: 35%; /* Position below the logo */
+  top: 35%; 
   left: 50%;
   transform: translateX(-50%);
-  text-shadow: 5px 10px #F9E707; /* Add a shadow for better readability */
+  text-shadow: 5px 10px #F9E707; 
   letter-spacing: 10px;
 }
 
@@ -228,7 +228,7 @@
   width: 550px;
   height: auto;
   position: absolute;
-  margin-top: -50px; /* Position the image below the text */
+  margin-top: -50px; 
   left: 50%;
   transform: translateX(-50%);
 }
@@ -248,16 +248,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
   padding-top: 100px;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   position: relative;
 }
 .s2 img {
   width: 550px;
   height: auto;
   position: absolute;
-  margin-top: -420px; /* Position the image below the text */
+  margin-top: -420px; 
   left: 50%;
   transform: translateX(-50%);
 }
@@ -265,7 +265,7 @@
   width: 550px;
   height: auto;
   position: absolute;
-  margin-top: -90px; /* Position the image below the text */
+  margin-top: -90px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -284,54 +284,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
   padding-top: 100px;
-  height: 50vh; /* Full viewport height */
+  height: 50vh; 
   position: relative;
 }
 .s4 img {
   width: 550px;
   height: auto;
   position: absolute;
-  margin-top: -310px; /* Position the image below the text */
+  margin-top: -310px; 
   left: 50%;
   transform: translateX(-50%);
 }
 .btn2 {
-  text-align: center; /* Centers the button horizontally */
-  margin-top: 10px; /* Adjust top margin as needed */
+  text-align: center; 
+  margin-top: 10px; 
 }
 
 /* Styling the button */
 .about-btn {
-  display: inline-block; /* Ensures proper alignment */
-  color: #ffffff; /* Button text color */
-  padding: 5px 50px; /* Adjust padding for size */
-  border-radius: 50px; /* Rounded corners */
-  border: none; /* Removes border */
-  background: #77BD26; /* Green button color */
-  transition: all 0.3s ease; /* Smooth transition for hover effect */
-  position: relative; /* Ensures z-index works */
-  text-decoration: none; /* Removes underline from <a> */
+  display: inline-block; 
+  color: #ffffff; 
+  padding: 5px 50px; 
+  border-radius: 50px; 
+  border: none; 
+  background: #77BD26; 
+  transition: all 0.3s ease; 
+  position: relative; 
+  text-decoration: none; 
   font-family: "smiski", sans-serif;
   font-size: 12px;
-  letter-spacing: 15px; /* Space between letters */
+  letter-spacing: 15px; 
 }
 
 /* Button hover effect */
 .about-btn:hover {
-  background: #5AAE22; /* Darker green on hover */
-  transform: scale(1.05); /* Slight zoom effect */
+  background: #5AAE22; 
+  transform: scale(1.05); 
 }
 
 /* Styling the <h1> inside the button */
 .about-btn h1 {
-  margin: 0; /* Remove extra margin */
-  padding: 0; /* Remove padding */
+  margin: 0; 
+  padding: 0; 
   text-align: center;
   font-size: 24px;
-  letter-spacing: 10px; /* Adjust spacing for better readability */
-  line-height: 1.5; /* Center text vertically */
+  letter-spacing: 10px; 
+  line-height: 1.5;
   padding-top: 8px;
 }
 
@@ -373,12 +373,12 @@
   .footer h1 {
       font-size: 14px;
       margin-left: 0;
-      padding-top: 20px; /* Increased space from top */
-      margin-bottom: 15px; /* Added space below the text */
+      padding-top: 20px; 
+      margin-bottom: 15px; 
   }
 
   .footer .logo {
-      margin-top: 20px; /* Increased space above the logo */
+      margin-top: 20px; 
   }
 
   .footer .footer-logo {
@@ -387,7 +387,7 @@
 
   .social-icons {
       flex-direction: row-reverse;
-      gap: 15px; /* Increased gap between social icons */
+      gap: 15px; 
       margin-top: 40px;
   }
 
@@ -400,21 +400,21 @@
   .footer h1 {
       font-size: 16px;
       margin-left: 0;
-      padding-top: 25px; /* Adjusted for better spacing */
+      padding-top: 25px; 
       margin-bottom: 15px;
   }
 
   .footer .logo {
-      margin-top: 25px; /* Adjusted for better spacing */
+      margin-top: 25px;
   }
 
   .footer .footer-logo {
-      width: 10px; /* Keeping the logo size similar */
+      width: 10px; 
   }
 
   .social-icons {
       flex-direction: row-reverse;
-      gap: 15px; /* Increased gap between social icons */
+      gap: 15px; 
       margin-top: 40px;
   }
 
@@ -428,7 +428,7 @@
 /* For extra small devices (e.g., smartphones) */
 @media (max-width: 576px) {
   .navbar-brand img {
-      width: 80px; /* Further reduce logo size */
+      width: 80px; 
   }
 
   .navbar-custom {
@@ -437,17 +437,17 @@
   }
 
   .navbar-custom .navbar-nav {
-      margin-left: 0; /* Center nav links */
+      margin-left: 0; 
       justify-content: center;
   }
 
   .nav-link {
-      font-size: 12px; /* Adjust font size */
-      margin-left: 5px; /* Reduce spacing */
+      font-size: 12px; 
+      margin-left: 5px; 
   }
 
   .dropdown-menu {
-      width: 100%; /* Full width for dropdowns */
+      width: 100%; 
       left: 0;
   }
 }
@@ -457,18 +457,18 @@
 @media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
-    padding-top: 50px; /* Reduce padding */
+    padding-top: 50px; 
   }
 
   .logo-smiski img {
-    width: 200px; /* Smaller logo */
-    margin-top: -400px; /* Adjust position */
+    width: 200px; 
+    margin-top: -400px; 
 
   }
 
   .logo-smiski h1 {
-    font-size: 20px; /* Smaller heading */
-    letter-spacing: 2px; /* Adjust spacing */
+    font-size: 20px; 
+    letter-spacing: 2px; 
     text-shadow: 3px 6px #F9E707;
   }
 }
@@ -499,11 +499,11 @@
   }
 
   .navbar-brand img {
-    width: 90px; /* Adjust logo size */
+    width: 90px; 
   }
 
   .nav-link {
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px; 
     margin-left: 10px;
   }
 
@@ -512,7 +512,7 @@
   }
 
   .logo-smiski img {
-    width: 150px; /* Adjusted for smaller screens */
+    width: 150px; 
   }
 
   .logo-smiski h1 {
@@ -575,46 +575,46 @@
   }
 
   .logo-smiski img {
-    width: 200px; /* Adjust logo size */
-    margin-top: -650px; /* Adjust position */
+    width: 200px; 
+    margin-top: -650px; 
   }
 
   .logo-smiski h1 {
-    font-size: 20px; /* Reduce font size for smaller screen */
+    font-size: 20px; 
     letter-spacing: 2px;
-    margin-top: -80px; /* Adjust position */
+    margin-top: -80px; 
     margin-left: -10px;
   }
 .hero {
   max-height: 120vh;
 }
   .s1 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -190px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -190px; 
   }
   .s2 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -950px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -950px; 
   }
   .s3 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -750px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -750px; 
   }
   .page1 {
     max-height: 40vh;
   }
   .s4 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -1200px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -1200px; 
     
   }
   .page2 {
     max-height: 90vh;
   }
   .about-btn {
-    font-size: 10px; /* Smaller button text */
-    padding: 5px 30px; /* Adjust padding */
-    letter-spacing: 8px; /* Reduce letter spacing */
+    font-size: 10px; 
+    padding: 5px 30px; 
+    letter-spacing: 8px; 
     
   }
 }
@@ -622,15 +622,15 @@
 @media screen and (max-width: 932px) {
   /* Adjust logo size and position */
   .logo-smiski img {
-    width: 200px; /* Adjust logo size */
-    margin-top: -200px; /* Adjust position */
+    width: 200px; 
+    margin-top: -200px; 
   }
 
   /* Adjust font size and position for heading */
   .logo-smiski h1 {
-    font-size: 20px; /* Reduce font size for smaller screen */
+    font-size: 20px; 
     letter-spacing: 2px;
-    margin-top: 80px; /* Adjust position */
+    margin-top: 80px; 
     margin-left: -10px;
   }
 
@@ -641,22 +641,22 @@
 
   /* Image size and positioning adjustments */
   .s1 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -20px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -20px; 
   }
   .s2 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -220px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -220px; 
   }
   .s3 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -50px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -50px; 
   }
 
 
   .s4 img {
-    width: 350px; /* Reduce image size */
-    margin-top: -170px; /* Adjust positioning */
+    width: 350px; 
+    margin-top: -170px; 
   }
 
   .page2 {
@@ -665,15 +665,15 @@
 
   /* Button adjustments */
   .about-btn {
-    font-size: 10px; /* Smaller button text */
-    padding: 5px 30px; /* Adjust padding */
-    letter-spacing: 8px; /* Reduce letter spacing */
+    font-size: 10px; 
+    padding: 5px 30px; 
+    letter-spacing: 8px; 
   }
 }
 /* iPad Pro - Landscape */
 @media screen and (max-width: 1366px) {
   .navbar-brand img {
-      width: 80px; /* Further reduce logo size */
+      width: 80px; 
   }
 
   .navbar-custom {
@@ -682,20 +682,20 @@
   }
 
   .navbar-custom .navbar-nav {
-      margin-left: 200px; /* Center nav links */
+      margin-left: 200px; 
       justify-content: center;
   }
 
   .nav-link {
-      font-size: 12px; /* Adjust font size */
-      margin-left: 15px; /* Reduce spacing */
+      font-size: 12px; 
+      margin-left: 15px; 
   }
 
   .dropdown-menu {
-      width: 100%; /* Full width for dropdowns */
+      width: 100%; 
       left: 0; }
       .hero {
-        padding-top: 100px; /* Maintain padding */
+        padding-top: 100px; 
         max-height: 10px;
       }
       .page1 {
@@ -706,43 +706,43 @@
       }
     
       .logo-smiski img {
-        width: 250px; /* Adjust logo size */
+        width: 250px; 
         margin-top: -750px;
       }
     
       .logo-smiski h1 {
-        font-size: 50px; /* Adjust font size */
+        font-size: 50px; 
         letter-spacing: 10px;
         top: 30%;
       }
     
       .s1 img, .s2 img, .s3 img, .s4 img {
-        width: 450px; /* Adjust image size */
+        width: 450px; 
       }
 
       .s1 img {
-        width: 350px; /* Reduce image size */
-        padding-top: 20px; /* Adjust positioning */
+        width: 350px; 
+        padding-top: 20px; 
       }
       .s2 img {
-        width: 350px; /* Reduce image size */
-        top: 230px; /* Adjust positioning */
+        width: 350px; 
+        top: 230px; 
       }
       .s3 img {
-        width:350px; /* Reduce image size */
-        top: 230px; /* Adjust positioning */
+        width:350px; 
+        top: 230px; 
       }
     
     
       .s4 img {
-        width: 350px; /* Reduce image size */
-        top: -230px; /* Adjust positioning */
+        width: 350px; 
+        top: -230px; 
       }
       
     
       .about-btn {
-        font-size: 12px; /* Button text size */
-        padding: 5px 45px; /* Adjust padding */
+        font-size: 12px; 
+        padding: 5px 45px; 
         letter-spacing: 12px;
         top: -300px
         
@@ -761,8 +761,8 @@
           }
       
           .navbar-brand img {
-              width: 80px; /* Adjusted for better fit */
-              margin-left: 0; /* Adjusted for proper alignment */
+              width: 80px; 
+              margin-left: 0; 
           }
       
           .navbar-custom .navbar-nav {
@@ -804,37 +804,39 @@
               font-size: 20px;
           }
           .logo-smiski img {
-            width: 250px; /* Adjust logo size */
+            width: 250px; 
             margin-top: -550px;
           }
         
           .logo-smiski h1 {
-            font-size: 22px; /* Adjust font size */
-            letter-spacing: 2px;
-            margin-top: 10px;
+            font-size: 20px; 
+            letter-spacing: 1px;
+            margin-top: 30px;
+            text-align: center;
+            margin-left: 1px;
           }
         
           .s1 img, .s2 img, .s3 img, .s4 img {
-            width: 450px; /* Adjust image size */
+            width: 450px; 
           }
     
           .s1 img {
-            width: 350px; /* Reduce image size */
-            margin-top: -20px; /* Adjust positioning */
+            width: 350px; 
+            margin-top: -140px; 
           }
           .s2 img {
-            width: 350px; /* Reduce image size */
-            margin-top: -420px; /* Adjust positioning */
+            width: 350px; 
+            margin-top: -420px; 
           }
           .s3 img {
-            width: 350px; /* Reduce image size */
-            margin-top: -50px; /* Adjust positioning */
+            width: 350px; 
+            margin-top: -50px; 
           }
         
         
           .s4 img {
-            width: 350px; /* Reduce image size */
-            margin-top: -170px; /* Adjust positioning */
+            width: 350px; 
+            margin-top: -170px; 
           }
       
       }

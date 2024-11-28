@@ -13,7 +13,7 @@
 
 .navbar-custom {
   background-color:#F9E707;
-  padding-top: 15px;  /* For Increasing of the NavBar Size */
+  padding-top: 15px;  
   padding-bottom: 15px;
 }
 
@@ -30,19 +30,19 @@
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link
 .navbar-brand {
-  margin-left: 30px; /* For Moving the Logo */
+  margin-left: 30px; 
 }
 
 .navbar-brand img {
   margin-right: 30%;
   margin-left: 3%;
-  width: 140px; /* For Increasing of the Logo Size */
+  width: 140px; 
   display: flex;
   align-items: center;
 }
 
 .navbar-custom .navbar-nav {
-  margin-left: 430px; /* For Moving the Text */
+  margin-left: 430px; 
 }
 
 .nav-link{
@@ -53,18 +53,18 @@
   color: #5b5757;
 }
 .dropdown .dropdown-toggle {
-  background-color: transparent; /* Remove background */
-  border: none; /* Remove border */
+  background-color: transparent; 
+  border: none; 
   color: #5b5757;
   font-size: 15px;
   font-family: "Questrial", sans-serif;
   transition: color 0.3s ease, transform 0.3s ease;
-  box-shadow: none; /* No shadow */
+  box-shadow: none; 
 }
 
 .dropdown .dropdown-toggle:hover {
   color: #89C914;
-  transform: scale(1.1); /* Add a subtle scaling effect */
+  transform: scale(1.1); 
 }
 
 /* Dropdown Style */
@@ -73,16 +73,16 @@
 }
 
 .dropdown-menu {
-  display: none; /* Hide dropdown by default */
+  display: none; 
   position: absolute;
-  top: 100%; /* Position dropdown below the "Products" link */
+  top: 100%; 
   left: 0;
-  background-color: #F9E707; /* Match navbar color */
+  background-color: #F9E707; 
   border: none;
   padding: 10px 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   z-index: 1000;
-  width: 200px; /* Set width for uniformity */
+  width: 200px; 
 }
 
 .dropdown-menu .dropdown-item {
@@ -134,7 +134,6 @@
   background-color: #89C914;
   color: white;
 }
-
 /* Footer Styles */
 .footer {
   background: #F9E707;
@@ -159,7 +158,7 @@
 }
 
 .footer .footer-logo {
-  width: 40px; /* For the Logo Size */
+  width: 40px; 
   height: auto;
   margin-top: -25px;
 }
@@ -167,7 +166,7 @@
 .social-icons {
   display: flex;
   justify-content: right;
-  gap: 25px; /* For the Space Between the Icons */
+  gap: 25px; 
   margin-top: 8px;
   margin-right: 60px;
 }
@@ -200,16 +199,16 @@
   margin-left: 593px;
 }
 .logo-smiski h1{
-  display: inline-block; /* Ensures the background wraps tightly around the text */
-  background-color:rgb(233, 132, 48); /* Yellow background */
-  color:#F9E707; /* Green text color */
-  font-family: "Questrial", sans-serif; /* Apply your desired font */
-  font-size: 30px; /* Adjust the font size */
-  font-weight: bold; /* Makes the text bold */
-  padding: 5px 50px; /* Creates space around the text */
-  border-radius: 50px; /* Fully rounds the corners */
-  text-align: center; /* Centers the text inside the element */
-  text-transform: uppercase; /* Makes the text all caps */
+  display: inline-block; 
+  background-color: #F9E707; 
+  color: #89C914; 
+  font-family: "Questrial", sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  padding: 5px 50px; 
+  border-radius: 50px; 
+  text-align: center; 
+  text-transform: uppercase; 
   margin-left: 395px;
   margin-top: 20px;
   font-family: 'smiski';
@@ -221,16 +220,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Space between items */
+  gap: 20px; 
   padding: 20px;
-  max-width: 1200px; /* Limit the total width */
-  margin: 0 auto; /* Center the container */
+  max-width: 1200px; 
+  margin: 0 auto; 
   margin-top: 40px;
 }
 
 /* Individual item styling */
 .series-item {
-  flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+  flex: 1 1 calc(33.33% - 20px); 
   max-width: calc(33.33% - 20px);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -250,21 +249,21 @@
 
 /* Title styling */
 .series-title {
-  display: block; /* Make the element block-level to easily control the width */
-  background-color: #F9E707; /* Yellow background */
-  color: rgb(233, 132, 48); /* Green text color */
-  font-family: "smiski"; /* Apply your desired font */
-  font-size: 20px; /* Adjust the font size */
-  font-weight: bold; /* Makes the text bold */
-  padding: 10px 0; /* Vertical padding */
+  display: block; 
+  background-color: #F9E707; 
+  color: #89C914; 
+  font-family: "smiski"; 
+  font-size: 20px; 
+  font-weight: bold; 
+  padding: 10px 0; 
   padding-top: 15px;
-  width: 250px; /* Set a fixed width for the background */
-  border-radius: 50px; /* Fully rounds the corners */
-  letter-spacing: 2px; /* Space between characters */
-  text-align: center; /* Centers the text horizontally */
-  text-transform: uppercase; /* Makes the text all caps */
-  margin: 0 auto; /* Center the element horizontally in its container */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+  width: 250px; 
+  border-radius: 50px; 
+  letter-spacing: 2px; 
+  text-align: center; 
+  text-transform: uppercase; 
+  margin: 0 auto; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -287,7 +286,7 @@
 }
 
 .end {
-    background-image: url('../img/Series2Group.png');
+    background-image: url('../img/Series1Group.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -295,6 +294,7 @@
     min-height: 120vh;
     position: relative;
 }
+
 
 /* MEDIA QUERY FOR FOOTER */
 /* Media Query for Smaller Screens */
@@ -334,12 +334,12 @@
   .footer h1 {
       font-size: 14px;
       margin-left: 0;
-      padding-top: 20px; /* Increased space from top */
-      margin-bottom: 15px; /* Added space below the text */
+      padding-top: 20px; 
+      margin-bottom: 15px; 
   }
 
   .footer .logo {
-      margin-top: 20px; /* Increased space above the logo */
+      margin-top: 20px; 
   }
 
   .footer .footer-logo {
@@ -348,7 +348,7 @@
 
   .social-icons {
       flex-direction: row-reverse;
-      gap: 15px; /* Increased gap between social icons */
+      gap: 15px; 
       margin-top: 40px;
   }
 
@@ -361,21 +361,21 @@
   .footer h1 {
       font-size: 16px;
       margin-left: 0;
-      padding-top: 25px; /* Adjusted for better spacing */
+      padding-top: 25px; 
       margin-bottom: 15px;
   }
 
   .footer .logo {
-      margin-top: 25px; /* Adjusted for better spacing */
+      margin-top: 25px; 
   }
 
   .footer .footer-logo {
-      width: 10px; /* Keeping the logo size similar */
+      width: 10px; 
   }
 
   .social-icons {
       flex-direction: row-reverse;
-      gap: 15px; /* Increased gap between social icons */
+      gap: 15px; 
       margin-top: 40px;
   }
 
@@ -393,56 +393,55 @@
       padding-bottom: 10px;
   }
   .navbar-custom .navbar-brand {
-      margin-left: 15px; /* Reduce spacing for smaller screens */
+      margin-left: 15px; 
   }
   .navbar-brand img {
-      width: 100px; /* Adjust logo size */
+      width: 100px; 
   }
   .navbar-custom .navbar-nav {
-      margin-left: 0; /* Center align */
+      margin-left: 0; 
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
   }
   .nav-link {
-      margin-left: 0; /* Remove spacing */
-      margin-bottom: 10px; /* Add spacing between links */
+      margin-left: 0; 
+      margin-bottom: 10px; 
   }
   .hero h1, .hero h2 {
-      font-size: 40px; /* Adjust heading size */
+      font-size: 40px; 
       letter-spacing: 10px;
       padding-left: 10px;
       padding-top: 100px;
   }
   .hero {
-      min-height: 70vh; /* Adjust height for smaller screens */
+      min-height: 70vh; 
   }
 }
 
 /* For extra small devices (e.g., smartphones) */
 @media (max-width: 576px) {
   .navbar-brand img {
-      width: 80px; /* Further reduce logo size */
+      width: 80px; 
   }
   .navbar-custom {
       padding-top: 5px;
       padding-bottom: 5px;
   }
   .dropdown-menu {
-      width: 100%; /* Full width for dropdowns */
+      width: 100%; 
       left: 0;
   }
   .hero {
-      min-height: 70vh; /* Adjust the height for small screens */
+      min-height: 70vh;
   }
   .hero h1, .hero h2 {
-      font-size: 35px; /* Smaller headings for small screens */
+      font-size: 35px; 
       letter-spacing: 5px;
-      text-align: center; /* Center the headings */
-      margin: 0; /* Reset margins */
-      padding: 0; /* Add consistent padding */
-      position: relative; /* Ensure proper stacking */
+      margin: 0;
+      padding: 0; 
+      position: relative;
   }
   .hero h1{
       padding-top: 110px;
@@ -450,7 +449,7 @@
       padding-bottom: 0;
   }
   .hero h2 {
-      z-index: 2; /* Ensure it layers correctly */
+      z-index: 2; 
       padding-top: -90px;
       margin-top: 0;
   }
@@ -460,22 +459,110 @@
 /* For medium devices (tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
   .navbar-custom .navbar-nav {
-      margin-left: 150px; /* Adjust spacing */
+      margin-left: 150px; 
   }
   .navbar-brand img {
-      width: 120px; /* Slightly reduce logo size */
+      width: 120px;
   }
   .hero h1, .hero h2 {
-      font-size: 60px; /* Scale down slightly */
+      font-size: 60px;
       letter-spacing: 15px;
       padding-left: 20px;
   }
   
 }
-/* iPad Pro - Landscape */
-@media screen and (max-width: 1366px) {
+/* iPhone 14 Pro Max - Portrait */
+@media screen and (max-width: 430px) {
+  /* Navbar adjustments */
+  .navbar-custom {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .navbar-custom .navbar-brand {
+      margin-left: 10px;
+  }
+
   .navbar-brand img {
-      width: 80px; /* Further reduce logo size */
+      width: 100px;
+      margin-left: 70px;
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+.footer h1 {
+      font-size: 16px;
+      margin-left: 120px;
+      padding-top: 25px;
+      margin-bottom: 15px;
+  }
+
+  .footer .logo {
+      margin-top: 25px;
+  }
+
+  .footer .footer-logo {
+      width: 30px;
+      margin-left: 120px;
+  }
+
+  /* Social icons */
+  .social-icons {
+      flex-direction: row-reverse;
+      gap: 15px;
+      margin-top: 50px;
+      margin-left: 120px;
+  }
+
+  .social-icons a {
+      font-size: 20px;
+  }
+
+
+.logo-smiski img {
+    margin-left: 50px;
+    width: 10px;
+    padding-top: -310px;
+  }
+  
+  .logo-smiski h1 {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .series-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .series-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .series-title {
+    font-size: 18px;
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+  }
+
+  .series-details {
+    font-size: 12px;
+  }
+}
+
+/* iPad Pro - Portrait */
+@media screen and (max-width: 1024px) {
+  .navbar-brand img {
+      width: 80px; 
   }
 
   .navbar-custom {
@@ -484,21 +571,200 @@
   }
 
   .navbar-custom .navbar-nav {
-      margin-left: 200px; /* Center nav links */
+      margin-left: 0;
+      justify-content: center; 
+  }
+
+  .nav-link {
+      font-size: 10px; 
+      margin-left: 40px; 
+      white-space: nowrap; 
+      text-overflow: ellipsis; 
+      overflow: hidden; 
+  }
+
+  .dropdown-menu {
+      width: 100%; 
+      left: 0;
+  }
+  .logo-smiski img {
+    margin-top: 10px;
+    width: 200px;
+    padding-left: 930px;
+  }
+  
+  .logo-smiski h1 {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-left: 280px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+
+/* iPad Pro - Landscape */
+@media screen and (max-width: 1366px) {
+  .navbar-brand img {
+      width: 80px; 
+  }
+
+  .navbar-custom {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 200px;
       justify-content: center;
   }
 
   .nav-link {
-      font-size: 12px; /* Adjust font size */
-      margin-left: 15px; /* Reduce spacing */
+      font-size: 12px; 
+      margin-left: 15px; 
   }
 
   .dropdown-menu {
-      width: 100%; /* Full width for dropdowns */
+      width: 100%; 
       left: 0;
   }
   .hero img{
     margin-top: 100px;
     margin-left: 600px;
+  }
+}
+/* SMALLER SCREEN */
+      @media screen and (max-width: 932px) {
+          /* Adjustments for iPhone 14 Pro Max in landscape */
+          .navbar-custom {
+              padding-top: 10px;
+              padding-bottom: 10px;
+          }
+      
+          .navbar-custom .navbar-brand {
+              margin-left: 10px;
+          }
+      
+          .navbar-brand img {
+              width: 80px; 
+              margin-left: 0; 
+          }
+      
+          .navbar-custom .navbar-nav {
+              margin-left: 0;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          
+          .footer {
+              padding: 10px;
+          }
+        
+          .footer h1 {
+              font-size: 16px;
+              text-align: center;
+              margin-left: 0;
+              padding-top: 5px;
+          }
+        
+          .footer .logo {
+              margin-top: 25px;
+          }
+        
+          .footer .footer-logo {
+              width: 35px;
+              margin-right: 120px;
+          }
+        
+          .social-icons {
+              justify-content: center;
+              margin-top: 45px;
+              margin-right: 120px;
+          }
+        
+          .social-icons a {
+              font-size: 20px;
+          }
+      
+      }
+/* iPhone 14 Pro Max - Portrait */
+@media screen and (max-width: 430px) {
+  /* Navbar adjustments */
+  .navbar-custom {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .navbar-custom .navbar-brand {
+      margin-left: 10px;
+  }
+
+  .navbar-brand img {
+      width: 100px;
+      margin-left: 0; 
+      display: block;
+      margin: 0 auto; 
+  }
+
+  .navbar-custom .navbar-nav {
+      margin-left: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer h1 {
+    font-size: 16px;
+    margin-left: 0; 
+    padding-top: 25px;
+    margin-bottom: 15px;
+    text-align: center; 
+  }
+
+  .footer .logo {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .footer-logo {
+    width: 30px;
+    margin-left: 0; 
+  }
+
+  /* Social icons */
+  .social-icons {
+    flex-direction: row-reverse;
+    gap: 15px;
+    margin-top: 50px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 430px) and (max-height: 932px) {
+
+  .logo-smiski img {
+    width: 100px;
+    margin-top: 0;
+    padding-top: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  .logo-smiski h1 {
+    font-size: 24px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 5px; 
+    text-indent: 0; 
+    padding-top: 10px; 
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
