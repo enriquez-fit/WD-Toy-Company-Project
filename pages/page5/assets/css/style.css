@@ -200,8 +200,8 @@
 }
 .logo-smiski h1{
   display: inline-block; 
-  background-color: #F9E707; 
-  color: #89C914; 
+  background-color:#89C914; 
+  color:#F9E707; 
   font-family: "Questrial", sans-serif; 
   font-size: 30px; 
   font-weight: bold; 
@@ -250,8 +250,8 @@
 /* Title styling */
 .series-title {
   display: block; 
-  background-color: #F9E707; 
-  color: #89C914; 
+  background-color:#89C914; 
+  color:#F9E707; 
   font-family: "smiski"; 
   font-size: 20px; 
   font-weight: bold; 

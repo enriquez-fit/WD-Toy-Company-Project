@@ -151,7 +151,7 @@
 
 .start-btn {
     margin-top: -185px;
-    margin-right: 825px;
+    margin-right: 830px;
     color: #ffffff;
     font-family: 'smiski';
     letter-spacing: 6px;
@@ -160,19 +160,18 @@
     background: #77BD26;
     transition: all 0.3s;
     z-index: 2;
-    font-size: 15px;
+    font-size: 18px;
+    padding-left: 18px;
+    padding-top: 10px;
     justify-content: center;
     text-align:center;
 }
 
 .start-btn h1 {
     font-family: "smiski", sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 12px;
     margin-bottom: 2px;
-    padding-top: 10px;
-    margin-left: 18px;
 
-   
 
 }
 
