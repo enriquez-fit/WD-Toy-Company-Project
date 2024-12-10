@@ -472,6 +472,13 @@
         width: 100%;
         left: 0;
     }
+
+    .start-btn{
+        margin-top: -240px;
+        margin-left: -310px;
+        font-size: 14px; 
+        padding: 8px 25px; 
+    }
 }
 
 
